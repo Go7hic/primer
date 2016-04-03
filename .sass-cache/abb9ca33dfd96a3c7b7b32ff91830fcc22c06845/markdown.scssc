@@ -1,0 +1,1480 @@
+3.4.21 (Selective Steve)
+7679adc108279a8445a772067c2547919ef2d6e6
+o:Sass::Tree::RootNode:@children[
+o:Sass::Tree::CommentNode:@value[I"è-/* GitHub Flavored Markdown
+ * ================================
+ *
+ * *View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
+ *
+ * Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:
+ *
+ * Roses are red
+ * Violets are blue
+ *
+ * The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:
+ *
+ * Roses are red
+ * Violets are blue
+ *
+ * Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.
+ *
+ * A bit of the GitHub spice
+ * -------------------------
+ *
+ * In addition to the changes in the previous section, certain references are auto-linked:
+ *
+ * * SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+ * * User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+ * * User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+ * * \#Num: #1
+ * * User/#Num: mojombo#1
+ *   * SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+ *   * User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+ *   * User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+ *   * \#Num: #1
+ *   * User/#Num: mojombo#1
+ * * User/Project#Num: mojombo/god#1
+ *
+ * These are dangerous goodies though, and we need to make sure email addresses don't get mangled:
+ *
+ * My email addy is tom@github.com.
+ *
+ * Good rules
+ * -------------
+ *
+ * Actually there's nothing wrong with this `<hr>`
+ *
+ * ---
+ *
+ * A mathematician is a device for turning coffee into theorems
+ * -------------------------------
+ *
+ * In first grade I learned that 5 > 3 and 2 < 7. Maybe some arrows. 1 -> 2 -> 3. 9 <- 8 <- 7.
+ *
+ * Triangles man! a^2 + b^2 = c^2
+ *
+ * We all like making lists
+ * ------------------------
+ *
+ * The above header should be an H2 tag. Now, for a list of fruits:
+ *
+ * * Red Apples
+ * * Purple Grapes
+ * * Green Kiwifruits
+ *
+ * Let's get crazy:
+ *
+ * 1.  This is a list item with two paragraphs. Lorem ipsum dolor
+ *     sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+ *     mi posuere lectus.
+ *
+ *     Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+ *     vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+ *     sit amet velit.
+ *
+ * 2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+ *
+ * What about some code **in** a list? That's insane, right?
+ *
+ * 1. In Ruby you can map like this:
+ *
+ *         ['a', 'b'].map { |x| x.uppercase }
+ *
+ * 2. In Rails, you can do a shortcut:
+ *
+ *         ['a', 'b'].map(&:uppercase)
+ *
+ * Some people seem to like definition lists
+ *
+ * <dl>
+ *   <dt>Lower cost</dt>
+ *   <dd>The new version of this product costs significantly less than the previous one!</dd>
+ *   <dt>Easier to use</dt>
+ *   <dd>We've changed the product so that it's much easier to use!</dd>
+ * </dl>
+ *
+ * I am a robot
+ * ------------
+ *
+ * Maybe you want to print `robot` to the console 1000 times. Why not?
+ *
+ *     def robot_invasion
+ *       puts("robot " * 1000)
+ *     end
+ *
+ * You see, that was formatted as code because it's been indented by four spaces.
+ *
+ * How about we throw some angle braces and ampersands in there?
+ *
+ *     <div class="footer">
+ *         &copy; 2004 Foo Corporation
+ *     </div>
+ *
+ * Set in stone
+ * ------------
+ *
+ * Playing the blame game
+ * ----------------------
+ *
+ * If you need to blame someone, the best way to do so is by quoting them:
+ *
+ * > I, at any rate, am convinced that He does not throw dice.
+ *
+ * Or perhaps someone a little less eloquent:
+ *
+ * > I wish you'd have given me this written question ahead of time so I
+ * > could plan for it... I'm sure something will pop into my head here in
+ * > the midst of this press conference, with all the pressure of trying to
+ * > come up with answer, but it hadn't yet...
+ * >
+ * > I don't want to sound like
+ * > I have made no mistakes. I'm confident I have. I just haven't - you
+ * > just put me under the spot here, and maybe I'm not as quick on my feet
+ * > as I should be in coming up with one.
+ *
+ * Table for two
+ * -------------
+ *
+ * <table>
+ *   <tr>
+ *     <th>ID</th><th>Name</th><th>Profession</th>
+ *   </tr>
+ *   <tr>
+ *     <td>1</td><td>Beethoven</td><td>Composer</td>
+ *   </tr>
+ *   <tr>
+ *     <td>2</td><td>Beethoven (the dog)</td><td>Dog</td>
+ *   </tr>
+ * </table>
+ *
+ * Crazy linking action
+ * --------------------
+ *
+ * I get 10 times more traffic from [Google] [1] than from
+ * [Yahoo] [2] or [MSN] [3].
+ *
+ *   [1]: http://google.com/        "Google"
+ *   [2]: http://search.yahoo.com/  "Yahoo Search"
+ *   [3]: http://search.msn.com/    "MSN Search"
+ *
+ *
+ * # Header 1
+ *
+ * Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+ *
+ * ## Header 2
+ *
+ * Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+ *
+ * ### Header 3
+ *
+ * Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+ *
+ * #### Header 4
+ *
+ * Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+ *
+ * ##### Header 5
+ *
+ * Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+ *
+ * ###### Header 6
+ *
+ * Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+ *
+ * Ode to Code
+ * -----------
+ *
+ * ### Code block
+ *
+ * ``` coffeescript
+ *  ameta.append('span')
+ *           .attr('class', 'cmeta')
+ *           .html((d) -> "<a class='cmt' href='../commits?author=#{d.author.login}'>#{$.commafy(d.cmts)} commits</a> / <span class='a'>#{$.commafy(d.adds)} ++</span> / <span class='d'>#{$.commafy(d.dels)} --</span>")
+ *
+ *         svg = person.append('svg')
+ *           .attr('width', sparkw + (padl + padr))
+ *           .attr('height', sparkh + padt + padb)
+ *           .attr('class', 'spark')
+ *           .append('g')
+ *             .attr('transform', "translate(#{padl},#{padt})")
+ *
+ *         svg.append("g")
+ *           .attr("class", "x axis")
+ *           .attr("transform", "translate(0, #{sparkh - padt - padb})")
+ *           .call(xAxis)
+ *         .selectAll('.x.axis g text')
+ *           .style('display', (d, i) -> if i % 2 != 0 then 'none' else 'block')
+ *
+ *         yax = svg.append("g")
+ *           .attr("class", "y axis")
+ *           .call(yAxis)
+ *         .selectAll('.y.axis g text')
+ *           .attr('dx', sparkw / 2)
+ *           .style('display', (d, i) -> if i == 0 then 'none' else 'block')
+ *           .classed 'midlabel', true
+ * ```
+ *
+ * ### Single tick with spaces
+ *
+ * `You can use the HTML5 custom data attributes by passing the values inside a data hash. For example: data =&gt; { :something =&gt; "bla bla bla", :confirm =&gt; "You sure?" }`
+ *
+ * ### Multiple single ticks
+ *
+ * `2012-03-28 09:19:58.0908|INFO|FileLogger|Processing xml: <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='MSSQLSERVER'/><EventID Qualifiers='49152'>18456</EventID><Level>0</Level><Task>4</Task><Keywords>0x90000000000000</Keywords><TimeCreated SystemTime='2012-03-28T13:19:58.000000000Z'/><EventRecordID>399270</EventRecordID><Channel>Application</Channel><Computer>dallas</Computer><Security/></System><EventData><Data>sa</Data><Data> Reason: Password did not match that for the login provided.</Data><Data> [CLIENT: 118.186.64.242]</Data><Binary>184800000E00000007000000440041004C004C00410053000000070000006D00610073007400650072000000</Binary></EventData></Event>`
+ *
+ * `2012-03-28 09:19:58.0908|INFO|FileLogger|No regex, so counting as a match sdf sdf sdf sdfsd lksdfj lksjdf lksjdf lksdjf lksjdf lsdfj werwer werwer`
+ *
+ * ### Unbroken single tick
+ *
+ * `longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong`
+ *
+ * ### Unbroken triple tick
+ *
+ * ``` ruby
+ * longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong
+ * ```
+ *
+ * ### Single tick between a block of text that wraps
+ *
+ * this is a line with some text and `inline code test test test test test test test test test test test test test test test test test test test test  test test test test` and more text here
+ *
+ * ### Single tick between a block of text that doesn't wrap
+ *
+ * this is some text, `and this is some code`, lines don't break, they do what they're told
+ *
+ * Styleguide 4.0 */:ET:
+@type:silent;[ :
+@linei:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;i:@offseti:@end_poso;;iÛ;i:
+@fileI"m/Users/Go7hic/workspace/Github/primer/docs/bower_components/primer-user-content/components/markdown.scss;	T:@importero: Sass::Importers::Filesystem:
+@rootI"//Users/Go7hic/workspace/Github/primer/docs;	T:@real_rootI"//Users/Go7hic/workspace/Github/primer/docs;	T:@same_name_warningso:Set:
+@hash{ :@options{ o;;[I"C/* All of our block level items should have the same margin */;	T;
+;;[ ;iˆ;o;	;o;;iˆ;i;o;;iˆ;iA;@;@;@o:Sass::Tree::VariableNode:
+@nameI"margin;	T:
+@expro: Sass::Script::Tree::Literal	;o: Sass::Script::Value::Number
+;i:@numerator_units[I"px;	T:@denominator_units[ ;@:@originalI"	16px;	F;i˜;o;	;o;;i˜;i;o;;i˜;i;@;@:@filename@:@guarded0:@global0;[ ;i˜;o;	;o;;i˜;i;o;;i˜;i;@;@;@o;;[I"„/* This is styling for generic markdownized text. Anything you put in a
+ * container with .markdown-body on it should render generally well. It also
+ * includes some GitHub Flavored Markdown specific styling (like @mentions) */;	T;
+;;[ ;i˘;o;	;o;;i˘;i;o;;i˚;iQ;@;@;@o:Sass::Tree::RuleNode:
+@rule[I".markdown-body;	T:@parsed_ruleso:"Sass::Selector::CommaSequence:@members[o:Sass::Selector::Sequence;+[o:#Sass::Selector::SimpleSequence;+[o:Sass::Selector::Class;I"markdown-body;	T;i¸;$0:@subject0:@sourceso;;{ ;o;	;o;;i;i;o;;i;i;0;0;i¸;$0;i¸;i¸;$0:@selector_source_rangeo;	;o;;i¸;i;o;;i¸;i;@;@:
+@tabsi ;[;o:Sass::Tree::PropNode;[I"overflow;	T;o;;o: Sass::Script::Value::String	;I"hidden;	T;
+:identifier:"@deprecated_interp_equivalent0;@;i˝;o;	;o;;i˝;i;o;;i˝;i;@;@;2i :@prop_syntax:new;[ ;i˝;o;	;o;;i˝;i;o;;i˝;i;@;@:@name_source_rangeo;	;@Q;o;;i˝;i;@;@:@value_source_rangeo;	;o;;i˝;i;@R;@;@;@o;3;[I"font-family;	T;o;;o;4	;I"I"Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;	T;
+;5;60;@;i˛;o;	;o;;i˛;i;o;;i˛;iY;@;@;2i ;7;8;[ ;i˛;o;	;o;;i˛;i;o;;i˛;iY;@;@;9o;	;@b;o;;i˛;i;@;@;:o;	;o;;i˛;i;@c;@;@;@o;3;[I"font-size;	T;o;;o;4	;I"	16px;	T;
+;5;60;@;iˇ;o;	;o;;iˇ;i;o;;iˇ;i;@;@;2i ;7;8;[ ;iˇ;o;	;o;;iˇ;i;o;;iˇ;i;@;@;9o;	;@s;o;;iˇ;i;@;@;:o;	;o;;iˇ;i;@t;@;@;@o;3;[I"line-height;	T;o;;o;4	;I"1.6;	T;
+;5;60;@;i ;o;	;o;;i ;i;o;;i ;i;@;@;2i ;7;8;[ ;i ;o;	;o;;i ;i;o;;i ;i;@;@;9o;	;@;o;;i ;i;@;@;:o;	;o;;i ;i;@Ä;@;@;@o;3;[I"word-wrap;	T;o;;o;4	;I"break-word;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@ê;o;;i;i;@;@;:o;	;o;;i;i;@ë;@;@;@o;';([I"> *:first-child;	T;)o;*;+[o;,;+[I">;	To;-;+[o:Sass::Selector::Universal:@namespace0;i;$0o:Sass::Selector::Pseudo:@syntactic_type:
+class;I"first-child;	T:	@arg0:@selector0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i;o;;i;i;@;@;2i ;[o;3;[I"margin-top;	T;o;;o;4	;I"0 !important;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i";@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i";@;@;9o;	;@∑;o;;i;i;@;@;:o;	;o;;i;i;@∏;@;@;@;i;o;	;@©;o;;i;i;@;@:@has_childrenT;@o;';([I"> *:last-child;	T;)o;*;+[o;,;+[I">;	To;-;+[o;;;<0;i;$0o;=;>;?;I"last-child;	T;@0;A0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i;o;;i;i;@;@;2i ;[o;3;[I"margin-bottom;	T;o;;o;4	;I"0 !important;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i%;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i%;@;@;9o;	;@‡;o;;i;i;@;@;:o;	;o;;i;i;@·;@;@;@;i;o;	;@“;o;;i;i;@;@;BT;@o;;[I"õ/* Anchors like <a name="examples">. These sometimes end up wrapped around
+ * text when users mistakenly forget to close the tag or use self-closing tag
+ * syntax. We don't want them to appear like links.
+ * FIXME: a:not(:link):not(:visited) would be a little clearer here (and
+ * possibly faster to match), but it breaks styling of <a href> elements due
+ * to https://bugs.webkit.org/show_bug.cgi?id=142737. */;	T;
+;;[ ;i;o;	;o;;i;i;o;;i;i=;@;@;@o;';([I"a:not([href]);	T;)o;*;+[o;,;+[o;-;+[o:Sass::Selector::Element	;I"a;	T;<0;i;$0o;=;>;?;I"not;	T;@0;Ao;*;+[o;,;+[o;-	;+[o:Sass::Selector::Attribute
+;I"	href;	T;<0:@operator0;0:@flags0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i;o;;i;i;@;@;2i ;[o;3;[I"
+color;	T;o;;o;4	;I"inherit;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i;@;@;9o;	;@;o;;i;i;@;@;:o;	;o;;i;i;@;@;@;@o;3;[I"text-decoration;	T;o;;o;4	;I"	none;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i;@;@;9o;	;@.;o;;i;i;@;@;:o;	;o;;i;i;@/;@;@;@;i;o;	;@;o;;i;i;@;@;BT;@o;;[I"/* Link Colors */;	T;
+;;[ ;i;o;	;o;;i;i;o;;i;i;@;@;@o;';([I".absent;	T;)o;*;+[o;,;+[o;-;+[o;.;I"absent;	T;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i;o;;i;i;@;@;2i ;[o;3;[I"
+color;	T;o;;o;4	;I"	#c00;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i;@;@;9o;	;@\;o;;i;i;@;@;:o;	;o;;i;i;@];@;@;@;i;o;	;@N;o;;i;i;@;@;BT;@o;';([I".anchor;	T;)o;*;+[o;,;+[o;-;+[o;.;I"anchor;	T;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i;o;;i;i;@;@;2i ;[o;3;[I"position;	T;o;;o;4	;I"absolute;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i;@;@;9o;	;@É;o;;i;i;@;@;:o;	;o;;i;i;@Ñ;@;@;@o;3;[I"top;	T;o;;o;4	;I"0;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i;@;@;9o;	;@î;o;;i;i;@;@;:o;	;o;;i;i;@ï;@;@;@o;3;[I"	left;	T;o;;o;4	;I"0;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i;@;@;9o;	;@•;o;;i;i;@;@;:o;	;o;;i;i;@¶;@;@;@o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i;@;@;9o;	;@∂;o;;i;i;@;@;:o;	;o;;i;i;@∑;@;@;@o;3;[I"padding-right;	T;o;;o;4	;I"6px;	T;
+;5;60;@;i ;o;	;o;;i ;i;o;;i ;i;@;@;2i ;7;8;[ ;i ;o;	;o;;i ;i
+;o;;i ;i;@;@;9o;	;@«;o;;i ;i;@;@;:o;	;o;;i ;i;@»;@;@;@o;3;[I"padding-left;	T;o;;o;4	;I"	30px;	T;
+;5;60;@;i!;o;	;o;;i!;i;o;;i!;i;@;@;2i ;7;8;[ ;i!;o;	;o;;i!;i
+;o;;i!;i;@;@;9o;	;@ÿ;o;;i!;i;@;@;:o;	;o;;i!;i;@Ÿ;@;@;@o;3;[I"margin-left;	T;o;;o;4	;I"
+-30px;	T;
+;5;60;@;i";o;	;o;;i";i;o;;i";i;@;@;2i ;7;8;[ ;i";o;	;o;;i";i
+;o;;i";i;@;@;9o;	;@È;o;;i";i;@;@;:o;	;o;;i";i;@Í;@;@;@o;';([I"&:focus;	T;)o;*;+[o;,;+[o;-;+[o:Sass::Selector::Parent:@suffix0;i$;$0o;=;>;?;I"
+focus;	T;@0;A0;i$;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i$;$0;i$;i$;$0;1o;	;o;;i$;i
+;o;;i$;i;@;@;2i ;[o;3;[I"outline;	T;o;;o;4	;I"	none;	T;
+;5;60;@;i%;o;	;o;;i%;i;o;;i%;i;@;@;2i ;7;8;[ ;i%;o;	;o;;i%;i;o;;i%;i;@;@;9o;	;@;o;;i%;i;@;@;:o;	;o;;i%;i;@;@;@;@;i$;o;	;@;o;;i$;i;@;@;BT;@;i;o;	;@u;o;;i;i;@;@;BT;@o;;[I"/* Headings */;	T;
+;;[ ;i);o;	;o;;i);i;o;;i);i;@;@;@o;';([I"h1, h2, h3, h4, h5, h6;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"h1;	T;<0;i*;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i*;$0;i*o;,;+[o;-;+[o;C	;I"h2;	T;<0;i*;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;i*;$0;i*o;,;+[o;-;+[o;C	;I"h3;	T;<0;i*;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i*;$0;i*o;,;+[o;-;+[o;C	;I"h4;	T;<0;i*;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i*;$0;i*o;,;+[o;-;+[o;C	;I"h5;	T;<0;i*;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i*;$0;i*o;,;+[o;-;+[o;C	;I"h6;	T;<0;i*;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i*;$0;i*;i*;$0;1o;	;o;;i*;i;o;;i*;i;@;@;2i ;[o;3;[I"position;	T;o;;o;4	;I"relative;	T;
+;5;60;@;i+;o;	;o;;i+;i;o;;i+;i;@;@;2i ;7;8;[ ;i+;o;	;o;;i+;i
+;o;;i+;i;@;@;9o;	;@v;o;;i+;i;@;@;:o;	;o;;i+;i;@w;@;@;@o;3;[I"margin-top;	T;o;;o;4	;I"1em;	T;
+;5;60;@;i,;o;	;o;;i,;i;o;;i,;i;@;@;2i ;7;8;[ ;i,;o;	;o;;i,;i
+;o;;i,;i;@;@;9o;	;@á;o;;i,;i;@;@;:o;	;o;;i,;i;@à;@;@;@o;3;[I"margin-bottom;	T;o:!Sass::Script::Tree::Variable;I"margin;	T:@underscored_nameI"margin;	T;i-;o;	;o;;i-;i;o;;i-;i ;@;@;$@;@;2i ;7;8;[ ;i-;o;	;o;;i-;i
+;o;;i-;i ;@;@;9o;	;@ò;o;;i-;i;@;@;:o;	;o;;i-;i;@ô;@;@;@o;3;[I"font-weight;	T;o;;o;4	;I"	bold;	T;
+;5;60;@;i.;o;	;o;;i.;i;o;;i.;i;@;@;2i ;7;8;[ ;i.;o;	;o;;i.;i
+;o;;i.;i;@;@;9o;	;@©;o;;i.;i;@;@;:o;	;o;;i.;i;@™;@;@;@o;3;[I"line-height;	T;o;;o;4	;I"1.4;	T;
+;5;60;@;i/;o;	;o;;i/;i;o;;i/;i;@;@;2i ;7;8;[ ;i/;o;	;o;;i/;i
+;o;;i/;i;@;@;9o;	;@∫;o;;i/;i;@;@;:o;	;o;;i/;i;@ª;@;@;@o;';([I".octicon-link;	T;)o;*;+[o;,;+[o;-;+[o;.;I"octicon-link;	T;i1;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i1;$0;i1;i1;$0;1o;	;o;;i1;i
+;o;;i1;i;@;@;2i ;[o;3;[I"display;	T;o;;o;4	;I"	none;	T;
+;5;60;@;i2;o;	;o;;i2;i;o;;i2;i;@;@;2i ;7;8;[ ;i2;o;	;o;;i2;i;o;;i2;i;@;@;9o;	;@ﬂ;o;;i2;i;@;@;:o;	;o;;i2;i;@‡;@;@;@o;3;[I"
+color;	T;o;;o;4	;I"	#000;	T;
+;5;60;@;i3;o;	;o;;i3;i;o;;i3;i;@;@;2i ;7;8;[ ;i3;o;	;o;;i3;i;o;;i3;i;@;@;9o;	;@;o;;i3;i;@;@;:o;	;o;;i3;i;@Ò;@;@;@o;3;[I"vertical-align;	T;o;;o;4	;I"middle;	T;
+;5;60;@;i4;o;	;o;;i4;i;o;;i4;i";@;@;2i ;7;8;[ ;i4;o;	;o;;i4;i;o;;i4;i";@;@;9o;	;@;o;;i4;i;@;@;:o;	;o;;i4;i;@;@;@;@;i1;o;	;@—;o;;i1;i;@;@;BT;@o;';([I"&:hover .anchor;	T;)o;*;+[o;,;+[o;-;+[o;G;H0;i7;$0o;=;>;?;I"
+hover;	T;@0;A0;i7;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i7;$0o;-;+[o;.;I"anchor;	T;i7;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i7;$0;i7;i7;$0;1o;	;o;;i7;i
+;o;;i7;i;@;@;2i ;[	o;3;[I"padding-left;	T;o;;o;4	;I"8px;	T;
+;5;60;@;i8;o;	;o;;i8;i;o;;i8;i;@;@;2i ;7;8;[ ;i8;o;	;o;;i8;i;o;;i8;i;@;@;9o;	;@2;o;;i8;i;@;@;:o;	;o;;i8;i;@3;@;@;@o;3;[I"margin-left;	T;o;;o;4	;I"
+-30px;	T;
+;5;60;@;i9;o;	;o;;i9;i;o;;i9;i;@;@;2i ;7;8;[ ;i9;o;	;o;;i9;i;o;;i9;i;@;@;9o;	;@C;o;;i9;i;@;@;:o;	;o;;i9;i;@D;@;@;@o;3;[I"text-decoration;	T;o;;o;4	;I"	none;	T;
+;5;60;@;i:;o;	;o;;i:;i;o;;i:;i!;@;@;2i ;7;8;[ ;i:;o;	;o;;i:;i;o;;i:;i!;@;@;9o;	;@T;o;;i:;i;@;@;:o;	;o;;i:;i;@U;@;@;@o;';([I".octicon-link;	T;)o;*;+[o;,;+[o;-;+[o;.;I"octicon-link;	T;i<;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i<;$0;i<;i<;$0;1o;	;o;;i<;i;o;;i<;i;@;@;2i ;[o;3;[I"display;	T;o;;o;4	;I"inline-block;	T;
+;5;60;@;i=;o;	;o;;i=;i;o;;i=;i#;@;@;2i ;7;8;[ ;i=;o;	;o;;i=;i;o;;i=;i#;@;@;9o;	;@y;o;;i=;i;@;@;:o;	;o;;i=;i;@z;@;@;@;i<;o;	;@k;o;;i<;i;@;@;BT;@;i7;o;	;@$;o;;i7;i;@;@;BT;@o;';([I"tt,
+    code;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"tt;	T;<0;iA;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iA;$0;iAo;,;+[I"
+;	To;-;+[o;C	;I"	code;	T;<0;iA;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;iA;$0;iA;iA;$0;1o;	;o;;iA;i
+;o;;iB;i;@;@;2i ;[o;3;[I"font-size;	T;o;;o;4	;I"inherit;	T;
+;5;60;@;iC;o;	;o;;iC;i;o;;iC;i;@;@;2i ;7;8;[ ;iC;o;	;o;;iC;i;o;;iC;i;@;@;9o;	;@Æ;o;;iC;i;@;@;:o;	;o;;iC;i;@Ø;@;@;@;iA;o;	;@†;o;;iB;i;@;@;BT;@;i*;o;	;@h;o;;i*;i;@;@;BT;@o;';([I"h1;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"h1;	T;<0;iG;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iG;$0;iG;iG;$0;1o;	;o;;iG;i;o;;iG;i;@;@;2i ;[
+o;3;[I"padding-bottom;	T;o;;o;4	;I"
+0.3em;	T;
+;5;60;@;iH;o;	;o;;iH;i;o;;iH;i;@;@;2i ;7;8;[ ;iH;o;	;o;;iH;i
+;o;;iH;i;@;@;9o;	;@◊;o;;iH;i;@;@;:o;	;o;;iH;i;@ÿ;@;@;@o;3;[I"font-size;	T;o;;o;4	;I"2.25em;	T;
+;5;60;@;iI;o;	;o;;iI;i;o;;iI;i;@;@;2i ;7;8;[ ;iI;o;	;o;;iI;i
+;o;;iI;i;@;@;9o;	;@Ë;o;;iI;i;@;@;:o;	;o;;iI;i;@È;@;@;@o;3;[I"line-height;	T;o;;o;4	;I"1.2;	T;
+;5;60;@;iJ;o;	;o;;iJ;i;o;;iJ;i;@;@;2i ;7;8;[ ;iJ;o;	;o;;iJ;i
+;o;;iJ;i;@;@;9o;	;@˘;o;;iJ;i;@;@;:o;	;o;;iJ;i;@˙;@;@;@o;3;[I"border-bottom;	T;o;;o;4	;I"1px solid #eee;	T;
+;5;60;@;iK;o;	;o;;iK;i;o;;iK;i';@;@;2i ;7;8;[ ;iK;o;	;o;;iK;i
+;o;;iK;i';@;@;9o;	;@
+;o;;iK;i;@;@;:o;	;o;;iK;i;@;@;@;@o;';([I".anchor;	T;)o;*;+[o;,;+[o;-;+[o;.;I"anchor;	T;iM;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iM;$0;iM;iM;$0;1o;	;o;;iM;i
+;o;;iM;i;@;@;2i ;[o;3;[I"line-height;	T;o;;o;4	;I"1;	T;
+;5;60;@;iN;o;	;o;;iN;i;o;;iN;i;@;@;2i ;7;8;[ ;iN;o;	;o;;iN;i;o;;iN;i;@;@;9o;	;@/;o;;iN;i;@;@;:o;	;o;;iN;i;@0;@;@;@;iM;o;	;@!;o;;iM;i;@;@;BT;@;iG;o;	;@…;o;;iG;i;@;@;BT;@o;';([I"h2;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"h2;	T;<0;iR;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iR;$0;iR;iR;$0;1o;	;o;;iR;i;o;;iR;i;@;@;2i ;[
+o;3;[I"padding-bottom;	T;o;;o;4	;I"
+0.3em;	T;
+;5;60;@;iS;o;	;o;;iS;i;o;;iS;i;@;@;2i ;7;8;[ ;iS;o;	;o;;iS;i
+;o;;iS;i;@;@;9o;	;@X;o;;iS;i;@;@;:o;	;o;;iS;i;@Y;@;@;@o;3;[I"font-size;	T;o;;o;4	;I"1.75em;	T;
+;5;60;@;iT;o;	;o;;iT;i;o;;iT;i;@;@;2i ;7;8;[ ;iT;o;	;o;;iT;i
+;o;;iT;i;@;@;9o;	;@i;o;;iT;i;@;@;:o;	;o;;iT;i;@j;@;@;@o;3;[I"line-height;	T;o;;o;4	;I"
+1.225;	T;
+;5;60;@;iU;o;	;o;;iU;i;o;;iU;i;@;@;2i ;7;8;[ ;iU;o;	;o;;iU;i
+;o;;iU;i;@;@;9o;	;@z;o;;iU;i;@;@;:o;	;o;;iU;i;@{;@;@;@o;3;[I"border-bottom;	T;o;;o;4	;I"1px solid #eee;	T;
+;5;60;@;iV;o;	;o;;iV;i;o;;iV;i';@;@;2i ;7;8;[ ;iV;o;	;o;;iV;i
+;o;;iV;i';@;@;9o;	;@ã;o;;iV;i;@;@;:o;	;o;;iV;i;@å;@;@;@o;';([I".anchor;	T;)o;*;+[o;,;+[o;-;+[o;.;I"anchor;	T;iX;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iX;$0;iX;iX;$0;1o;	;o;;iX;i
+;o;;iX;i;@;@;2i ;[o;3;[I"line-height;	T;o;;o;4	;I"1;	T;
+;5;60;@;iY;o;	;o;;iY;i;o;;iY;i;@;@;2i ;7;8;[ ;iY;o;	;o;;iY;i;o;;iY;i;@;@;9o;	;@∞;o;;iY;i;@;@;:o;	;o;;iY;i;@±;@;@;@;iX;o;	;@¢;o;;iX;i;@;@;BT;@;iR;o;	;@J;o;;iR;i;@;@;BT;@o;';([I"h3;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"h3;	T;<0;i];$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i];$0;i];i];$0;1o;	;o;;i];i;o;;i];i;@;@;2i ;[o;3;[I"font-size;	T;o;;o;4	;I"
+1.5em;	T;
+;5;60;@;i^;o;	;o;;i^;i;o;;i^;i;@;@;2i ;7;8;[ ;i^;o;	;o;;i^;i
+;o;;i^;i;@;@;9o;	;@Ÿ;o;;i^;i;@;@;:o;	;o;;i^;i;@⁄;@;@;@o;3;[I"line-height;	T;o;;o;4	;I"	1.43;	T;
+;5;60;@;i_;o;	;o;;i_;i;o;;i_;i;@;@;2i ;7;8;[ ;i_;o;	;o;;i_;i
+;o;;i_;i;@;@;9o;	;@Í;o;;i_;i;@;@;:o;	;o;;i_;i;@Î;@;@;@o;';([I".anchor;	T;)o;*;+[o;,;+[o;-;+[o;.;I"anchor;	T;ia;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;ia;$0;ia;ia;$0;1o;	;o;;ia;i
+;o;;ia;i;@;@;2i ;[o;3;[I"line-height;	T;o;;o;4	;I"1.2;	T;
+;5;60;@;ib;o;	;o;;ib;i;o;;ib;i;@;@;2i ;7;8;[ ;ib;o;	;o;;ib;i;o;;ib;i;@;@;9o;	;@;o;;ib;i;@;@;:o;	;o;;ib;i;@;@;@;@;ia;o;	;@;o;;ia;i;@;@;BT;@;i];o;	;@À;o;;i];i;@;@;BT;@o;';([I"h4;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"h4;	T;<0;if;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;if;$0;if;if;$0;1o;	;o;;if;i;o;;if;i;@;@;2i ;[o;3;[I"font-size;	T;o;;o;4	;I"1.25em;	T;
+;5;60;@;ig;o;	;o;;ig;i;o;;ig;i;@;@;2i ;7;8;[ ;ig;o;	;o;;ig;i
+;o;;ig;i;@;@;9o;	;@8;o;;ig;i;@;@;:o;	;o;;ig;i;@9;@;@;@o;';([I".anchor;	T;)o;*;+[o;,;+[o;-;+[o;.;I"anchor;	T;ii;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;ii;$0;ii;ii;$0;1o;	;o;;ii;i
+;o;;ii;i;@;@;2i ;[o;3;[I"line-height;	T;o;;o;4	;I"1.2;	T;
+;5;60;@;ij;o;	;o;;ij;i;o;;ij;i;@;@;2i ;7;8;[ ;ij;o;	;o;;ij;i;o;;ij;i;@;@;9o;	;@];o;;ij;i;@;@;:o;	;o;;ij;i;@^;@;@;@;ii;o;	;@O;o;;ii;i;@;@;BT;@;if;o;	;@*;o;;if;i;@;@;BT;@o;';([I"h5;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"h5;	T;<0;in;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;in;$0;in;in;$0;1o;	;o;;in;i;o;;in;i;@;@;2i ;[o;3;[I"font-size;	T;o;;o;4	;I"1em;	T;
+;5;60;@;io;o;	;o;;io;i;o;;io;i;@;@;2i ;7;8;[ ;io;o;	;o;;io;i
+;o;;io;i;@;@;9o;	;@Ü;o;;io;i;@;@;:o;	;o;;io;i;@á;@;@;@o;';([I".anchor;	T;)o;*;+[o;,;+[o;-;+[o;.;I"anchor;	T;iq;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iq;$0;iq;iq;$0;1o;	;o;;iq;i
+;o;;iq;i;@;@;2i ;[o;3;[I"line-height;	T;o;;o;4	;I"1.1;	T;
+;5;60;@;ir;o;	;o;;ir;i;o;;ir;i;@;@;2i ;7;8;[ ;ir;o;	;o;;ir;i;o;;ir;i;@;@;9o;	;@´;o;;ir;i;@;@;:o;	;o;;ir;i;@¨;@;@;@;iq;o;	;@ù;o;;iq;i;@;@;BT;@;in;o;	;@x;o;;in;i;@;@;BT;@o;';([I"h6;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"h6;	T;<0;iv;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iv;$0;iv;iv;$0;1o;	;o;;iv;i;o;;iv;i;@;@;2i ;[o;3;[I"font-size;	T;o;;o;4	;I"1em;	T;
+;5;60;@;iw;o;	;o;;iw;i;o;;iw;i;@;@;2i ;7;8;[ ;iw;o;	;o;;iw;i
+;o;;iw;i;@;@;9o;	;@‘;o;;iw;i;@;@;:o;	;o;;iw;i;@’;@;@;@o;3;[I"
+color;	T;o;;o;4	;I"	#777;	T;
+;5;60;@;ix;o;	;o;;ix;i;o;;ix;i;@;@;2i ;7;8;[ ;ix;o;	;o;;ix;i
+;o;;ix;i;@;@;9o;	;@Â;o;;ix;i;@;@;:o;	;o;;ix;i;@Ê;@;@;@o;';([I".anchor;	T;)o;*;+[o;,;+[o;-;+[o;.;I"anchor;	T;iz;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iz;$0;iz;iz;$0;1o;	;o;;iz;i
+;o;;iz;i;@;@;2i ;[o;3;[I"line-height;	T;o;;o;4	;I"1.1;	T;
+;5;60;@;i{;o;	;o;;i{;i;o;;i{;i;@;@;2i ;7;8;[ ;i{;o;	;o;;i{;i;o;;i{;i;@;@;9o;	;@
+;o;;i{;i;@;@;:o;	;o;;i{;i;@;@;@;@;iz;o;	;@¸;o;;iz;i;@;@;BT;@;iv;o;	;@∆;o;;iv;i;@;@;BT;@o;';([I"2p,
+  blockquote,
+  ul, ol, dl,
+  table,
+  pre;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"p;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;io;,;+[I"
+;	To;-;+[o;C	;I"blockquote;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;io;,;+[I"
+;	To;-;+[o;C	;I"ul;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;i;$0;io;,;+[o;-;+[o;C	;I"ol;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;io;,;+[o;-;+[o;C	;I"dl;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;io;,;+[I"
+;	To;-;+[o;C	;I"
+table;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i	;i;o;;i	;i;0;0;i;$0;io;,;+[I"
+;	To;-;+[o;C	;I"pre;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i
+;i;o;;i
+;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i;o;;iÉ;i;@;@;2i ;[o;3;[I"margin-top;	T;o;;o;4	;I"0;	T;
+;5;60;@;iÑ;o;	;o;;iÑ;i;o;;iÑ;i;@;@;2i ;7;8;[ ;iÑ;o;	;o;;iÑ;i
+;o;;iÑ;i;@;@;9o;	;@y;o;;iÑ;i;@;@;:o;	;o;;iÑ;i;@z;@;@;@o;3;[I"margin-bottom;	T;o;I;I"margin;	T;JI"margin;	T;iÖ;o;	;o;;iÖ;i;o;;iÖ;i ;@;@;$@;@;2i ;7;8;[ ;iÖ;o;	;o;;iÖ;i
+;o;;iÖ;i ;@;@;9o;	;@ä;o;;iÖ;i;@;@;:o;	;o;;iÖ;i;@ã;@;@;@;i;o;	;@k;o;;iÉ;i;@;@;BT;@o;';([I"hr;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"hr;	T;<0;ià;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;ià;$0;ià;ià;$0;1o;	;o;;ià;i;o;;ià;i;@;@;2i ;[
+o;3;[I"height;	T;o;;o;4	;I"4px;	T;
+;5;60;@;iâ;o;	;o;;iâ;i;o;;iâ;i;@;@;2i ;7;8;[ ;iâ;o;	;o;;iâ;i
+;o;;iâ;i;@;@;9o;	;@±;o;;iâ;i;@;@;:o;	;o;;iâ;i;@≤;@;@;@o;3;[I"padding;	T;o;;o;4	;I"0;	T;
+;5;60;@;iä;o;	;o;;iä;i;o;;iä;i;@;@;2i ;7;8;[ ;iä;o;	;o;;iä;i
+;o;;iä;i;@;@;9o;	;@¬;o;;iä;i;@;@;:o;	;o;;iä;i;@√;@;@;@o;3;[I"margin;	T;o:$Sass::Script::Tree::ListLiteral:@elements[o;I;I"margin;	T;JI"margin;	T;iã;o;	;o;;iã;i;o;;iã;i;@;@;$@;@o;	;o; 
+;i ;![ ;"[ ;@;#I"0;	F;iã;o;	;o;;iã;i;o;;iã;i;@;@;$@:@separator:
+space;iã;o;	;o;;iã;i;o;;iã;i;@;@;$@;@;2i ;7;8;[ ;iã;o;	;o;;iã;i
+;o;;iã;i;@;@;9o;	;@‡;o;;iã;i;@;@;:o;	;o;;iã;i;@·;@;@;@o;3;[I"background-color;	T;o;;o;4	;I"#e7e7e7;	T;
+;5;60;@;iå;o;	;o;;iå;i;o;;iå;i#;@;@;2i ;7;8;[ ;iå;o;	;o;;iå;i
+;o;;iå;i#;@;@;9o;	;@Ò;o;;iå;i;@;@;:o;	;o;;iå;i;@Ú;@;@;@o;3;[I"border;	T;o;;o;4	;I"0 none;	T;
+;5;60;@;iç;o;	;o;;iç;i;o;;iç;i;@;@;2i ;7;8;[ ;iç;o;	;o;;iç;i
+;o;;iç;i;@;@;9o;	;@;o;;iç;i;@;@;:o;	;o;;iç;i;@;@;@;@;ià;o;	;@£;o;;ià;i;@;@;BT;@o;;[I"$/* Lists, Blockquotes & Such */;	T;
+;;[ ;iê;o;	;o;;iê;i;o;;iê;i$;@;@;@o;';([I"ul,
+  ol;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"ul;	T;<0;ië;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;ië;$0;iëo;,;+[I"
+;	To;-;+[o;C	;I"ol;	T;<0;ië;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;ië;$0;ië;ië;$0;1o;	;o;;ië;i;o;;ií;i;@;@;2i ;[o;3;[I"padding-left;	T;o;;o;4	;I"2em;	T;
+;5;60;@;iì;o;	;o;;iì;i;o;;iì;i;@;@;2i ;7;8;[ ;iì;o;	;o;;iì;i
+;o;;iì;i;@;@;9o;	;@<;o;;iì;i;@;@;:o;	;o;;iì;i;@=;@;@;@o;';([I"&.no-list;	T;)o;*;+[o;,;+[o;-;+[o;G;H0;iï;$0o;.;I"no-list;	T;iï;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iï;$0;iï;iï;$0;1o;	;o;;iï;i
+;o;;iï;i;@;@;2i ;[o;3;[I"padding;	T;o;;o;4	;I"0;	T;
+;5;60;@;iñ;o;	;o;;iñ;i;o;;iñ;i;@;@;2i ;7;8;[ ;iñ;o;	;o;;iñ;i;o;;iñ;i;@;@;9o;	;@b;o;;iñ;i;@;@;:o;	;o;;iñ;i;@c;@;@;@o;3;[I"list-style-type;	T;o;;o;4	;I"	none;	T;
+;5;60;@;ió;o;	;o;;ió;i;o;;ió;i!;@;@;2i ;7;8;[ ;ió;o;	;o;;ió;i;o;;ió;i!;@;@;9o;	;@s;o;;ió;i;@;@;:o;	;o;;ió;i;@t;@;@;@;iï;o;	;@T;o;;iï;i;@;@;BT;@;ië;o;	;@.;o;;ií;i;@;@;BT;@o;;[I"m/* Did someone complain about list spacing? Encourage them
+ * to create the spacing with their markdown formatting.
+ * List behavior should be controled by the markup, not the css.
+ *
+ * For lists with padding between items, use blank
+ * lines between items. This will generate paragraphs with
+ * padding to space things out.
+ *
+ * - item
+ *
+ * - item
+ *
+ * - item
+ *
+ * For list without padding, don't use blank lines.
+ *
+ * - item
+ * - item
+ * - item
+ *
+ * Modifying the css to emulate these behaviors merely brakes
+ * one case in the process of solving another. Don't change
+ * this unless it's really really a bug. */;	T;
+;;[ ;iõ;o;	;o;;iõ;i;o;;i±;i0;@;@;@o;';([I"%ul ul,
+  ul ol,
+  ol ol,
+  ol ul;	T;)o;*;+[	o;,;+[o;-;+[o;C	;I"ul;	T;<0;i≤;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i≤;$0o;-;+[o;C	;I"ul;	T;<0;i≤;$0;/0;0o;;{ ;o;	;o;;i;i	;o;;i;i;0;0;i≤;$0;i≤o;,;+[I"
+;	To;-;+[o;C	;I"ul;	T;<0;i≤;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;i≤;$0o;-;+[o;C	;I"ol;	T;<0;i≤;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i≤;$0;i≤o;,;+[I"
+;	To;-;+[o;C	;I"ol;	T;<0;i≤;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;i≤;$0o;-;+[o;C	;I"ol;	T;<0;i≤;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i≤;$0;i≤o;,;+[I"
+;	To;-;+[o;C	;I"ol;	T;<0;i≤;$0;/0;0o;;{ ;o;	;o;;i	;i;o;;i	;i
+;0;0;i≤;$0o;-;+[o;C	;I"ul;	T;<0;i≤;$0;/0;0o;;{ ;o;	;o;;i	;i;o;;i	;i;0;0;i≤;$0;i≤;i≤;$0;1o;	;o;;i≤;i;o;;iµ;i;@;@;2i ;[o;3;[I"margin-top;	T;o;;o;4	;I"0;	T;
+;5;60;@;i∂;o;	;o;;i∂;i;o;;i∂;i;@;@;2i ;7;8;[ ;i∂;o;	;o;;i∂;i
+;o;;i∂;i;@;@;9o;	;@Î;o;;i∂;i;@;@;:o;	;o;;i∂;i;@Ï;@;@;@o;3;[I"margin-bottom;	T;o;;o;4	;I"0;	T;
+;5;60;@;i∑;o;	;o;;i∑;i;o;;i∑;i;@;@;2i ;7;8;[ ;i∑;o;	;o;;i∑;i
+;o;;i∑;i;@;@;9o;	;@¸;o;;i∑;i;@;@;:o;	;o;;i∑;i;@˝;@;@;@;i≤;o;	;@›;o;;iµ;i;@;@;BT;@o;';([I"li > p;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"li;	T;<0;i∫;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i∫;$0I">;	To;-;+[o;C	;I"p;	T;<0;i∫;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i∫;$0;i∫;i∫;$0;1o;	;o;;i∫;i;o;;i∫;i;@;@;2i ;[o;3;[I"margin-top;	T;o;I;I"margin;	T;JI"margin;	T;iª;o;	;o;;iª;i;o;;iª;i;@;@;$@;@;2i ;7;8;[ ;iª;o;	;o;;iª;i
+;o;;iª;i;@;@;9o;	;@-;o;;iª;i;@;@;:o;	;o;;iª;i;@.;@;@;@;i∫;o;	;@;o;;i∫;i;@;@;BT;@o;';([I"dl;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"dl;	T;<0;iæ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iæ;$0;iæ;iæ;$0;1o;	;o;;iæ;i;o;;iæ;i;@;@;2i ;[o;3;[I"padding;	T;o;;o;4	;I"0;	T;
+;5;60;@;iø;o;	;o;;iø;i;o;;iø;i;@;@;2i ;7;8;[ ;iø;o;	;o;;iø;i
+;o;;iø;i;@;@;9o;	;@T;o;;iø;i;@;@;:o;	;o;;iø;i;@U;@;@;@;iæ;o;	;@F;o;;iæ;i;@;@;BT;@o;';([I"
+dl dt;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"dl;	T;<0;i¬;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i¬;$0o;-;+[o;C	;I"dt;	T;<0;i¬;$0;/0;0o;;{ ;o;	;o;;i;i	;o;;i;i;0;0;i¬;$0;i¬;i¬;$0;1o;	;o;;i¬;i;o;;i¬;i;@;@;2i ;[
+o;3;[I"padding;	T;o;;o;4	;I"0;	T;
+;5;60;@;i√;o;	;o;;i√;i;o;;i√;i;@;@;2i ;7;8;[ ;i√;o;	;o;;i√;i
+;o;;i√;i;@;@;9o;	;@Ñ;o;;i√;i;@;@;:o;	;o;;i√;i;@Ö;@;@;@o;3;[I"margin-top;	T;o;I;I"margin;	T;JI"margin;	T;iƒ;o;	;o;;iƒ;i;o;;iƒ;i;@;@;$@;@;2i ;7;8;[ ;iƒ;o;	;o;;iƒ;i
+;o;;iƒ;i;@;@;9o;	;@ï;o;;iƒ;i;@;@;:o;	;o;;iƒ;i;@ñ;@;@;@o;3;[I"font-size;	T;o;;o;4	;I"1em;	T;
+;5;60;@;i≈;o;	;o;;i≈;i;o;;i≈;i;@;@;2i ;7;8;[ ;i≈;o;	;o;;i≈;i
+;o;;i≈;i;@;@;9o;	;@¶;o;;i≈;i;@;@;:o;	;o;;i≈;i;@ß;@;@;@o;3;[I"font-style;	T;o;;o;4	;I"italic;	T;
+;5;60;@;i∆;o;	;o;;i∆;i;o;;i∆;i;@;@;2i ;7;8;[ ;i∆;o;	;o;;i∆;i
+;o;;i∆;i;@;@;9o;	;@∑;o;;i∆;i;@;@;:o;	;o;;i∆;i;@∏;@;@;@o;3;[I"font-weight;	T;o;;o;4	;I"	bold;	T;
+;5;60;@;i«;o;	;o;;i«;i;o;;i«;i;@;@;2i ;7;8;[ ;i«;o;	;o;;i«;i
+;o;;i«;i;@;@;9o;	;@»;o;;i«;i;@;@;:o;	;o;;i«;i;@…;@;@;@;i¬;o;	;@v;o;;i¬;i;@;@;BT;@o;';([I"
+dl dd;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"dl;	T;<0;i ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i ;$0o;-;+[o;C	;I"dd;	T;<0;i ;$0;/0;0o;;{ ;o;	;o;;i;i	;o;;i;i;0;0;i ;$0;i ;i ;$0;1o;	;o;;i ;i;o;;i ;i;@;@;2i ;[o;3;[I"padding;	T;o;K;L[o;	;o; 
+;i ;![ ;"@÷;@;#I"0;	F;iÀ;o;	;o;;iÀ;i;o;;iÀ;i;@;@;$@o;I;I"margin;	T;JI"margin;	T;iÀ;o;	;o;;iÀ;i;o;;iÀ;i;@;@;$@;@;M;N;iÀ;o;	;o;;iÀ;i;o;;iÀ;i;@;@;$@;@;2i ;7;8;[ ;iÀ;o;	;o;;iÀ;i
+;o;;iÀ;i;@;@;9o;	;@	;o;;iÀ;i;@;@;:o;	;o;;iÀ;i;@	;@;@;@o;3;[I"margin-bottom;	T;o;I;I"margin;	T;JI"margin;	T;iÃ;o;	;o;;iÃ;i;o;;iÃ;i ;@;@;$@;@;2i ;7;8;[ ;iÃ;o;	;o;;iÃ;i
+;o;;iÃ;i ;@;@;9o;	;@	;o;;iÃ;i;@;@;:o;	;o;;iÃ;i;@	;@;@;@;i ;o;	;@Í;o;;i ;i;@;@;BT;@o;';([I"blockquote;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"blockquote;	T;<0;iœ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iœ;$0;iœ;iœ;$0;1o;	;o;;iœ;i;o;;iœ;i;@;@;2i ;[
+o;3;[I"padding;	T;o;;o;4	;I"0 15px;	T;
+;5;60;@;i–;o;	;o;;i–;i;o;;i–;i;@;@;2i ;7;8;[ ;i–;o;	;o;;i–;i
+;o;;i–;i;@;@;9o;	;@<	;o;;i–;i;@;@;:o;	;o;;i–;i;@=	;@;@;@o;3;[I"
+color;	T;o;;o;4	;I"	#777;	T;
+;5;60;@;i—;o;	;o;;i—;i;o;;i—;i;@;@;2i ;7;8;[ ;i—;o;	;o;;i—;i
+;o;;i—;i;@;@;9o;	;@M	;o;;i—;i;@;@;:o;	;o;;i—;i;@N	;@;@;@o;3;[I"border-left;	T;o;;o;4	;I"4px solid #ddd;	T;
+;5;60;@;i“;o;	;o;;i“;i;o;;i“;i%;@;@;2i ;7;8;[ ;i“;o;	;o;;i“;i
+;o;;i“;i%;@;@;9o;	;@^	;o;;i“;i;@;@;:o;	;o;;i“;i;@_	;@;@;@o;';([I"> :first-child;	T;)o;*;+[o;,;+[I">;	To;-;+[o;=;>;?;I"first-child;	T;@0;A0;i‘;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i‘;$0;i‘;i‘;$0;1o;	;o;;i‘;i
+;o;;i‘;i;@;@;2i ;[o;3;[I"margin-top;	T;o;;o;4	;I"0;	T;
+;5;60;@;i’;o;	;o;;i’;i;o;;i’;i;@;@;2i ;7;8;[ ;i’;o;	;o;;i’;i;o;;i’;i;@;@;9o;	;@Ñ	;o;;i’;i;@;@;:o;	;o;;i’;i;@Ö	;@;@;@;i‘;o;	;@v	;o;;i‘;i;@;@;BT;@o;';([I"> :last-child;	T;)o;*;+[o;,;+[I">;	To;-;+[o;=;>;?;I"last-child;	T;@0;A0;iÿ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iÿ;$0;iÿ;iÿ;$0;1o;	;o;;iÿ;i
+;o;;iÿ;i;@;@;2i ;[o;3;[I"margin-bottom;	T;o;;o;4	;I"0;	T;
+;5;60;@;iŸ;o;	;o;;iŸ;i;o;;iŸ;i;@;@;2i ;7;8;[ ;iŸ;o;	;o;;iŸ;i;o;;iŸ;i;@;@;9o;	;@¨	;o;;iŸ;i;@;@;:o;	;o;;iŸ;i;@≠	;@;@;@;iÿ;o;	;@û	;o;;iÿ;i;@;@;BT;@;iœ;o;	;@.	;o;;iœ;i;@;@;BT;@o;;[I"/* Tables */;	T;
+;;[ ;i›;o;	;o;;i›;i;o;;i›;i;@;@;@o;';([I"
+table;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"
+table;	T;<0;iﬁ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iﬁ;$0;iﬁ;iﬁ;$0;1o;	;o;;iﬁ;i;o;;iﬁ;i;@;@;2i ;[o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;iﬂ;o;	;o;;iﬂ;i;o;;iﬂ;i;@;@;2i ;7;8;[ ;iﬂ;o;	;o;;iﬂ;i
+;o;;iﬂ;i;@;@;9o;	;@‹	;o;;iﬂ;i;@;@;:o;	;o;;iﬂ;i;@›	;@;@;@o;3;[I"
+width;	T;o;;o;4	;I"	100%;	T;
+;5;60;@;i‡;o;	;o;;i‡;i;o;;i‡;i;@;@;2i ;7;8;[ ;i‡;o;	;o;;i‡;i
+;o;;i‡;i;@;@;9o;	;@Ì	;o;;i‡;i;@;@;:o;	;o;;i‡;i;@Ó	;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"	auto;	T;
+;5;60;@;i·;o;	;o;;i·;i;o;;i·;i;@;@;2i ;7;8;[ ;i·;o;	;o;;i·;i
+;o;;i·;i;@;@;9o;	;@˛	;o;;i·;i;@;@;:o;	;o;;i·;i;@ˇ	;@;@;@o;3;[I"word-break;	T;o;;o;4	;I"normal;	T;
+;5;60;@;i‚;o;	;o;;i‚;i;o;;i‚;i;@;@;2i ;7;8;[ ;i‚;o;	;o;;i‚;i
+;o;;i‚;i;@;@;9o;	;@
+;o;;i‚;i;@;@;:o;	;o;;i‚;i;@
+;@;@;@o;3;[I"word-break;	T;o;;o;4	;I"keep-all;	T;
+;5;60;@;i„;o;	;o;;i„;i;o;;i„;i;@;@;2i ;7;8;[ ;i„;o;	;o;;i„;i
+;o;;i„;i;@;@;9o;	;@ 
+;o;;i„;i;@;@;:o;	;o;;i„;i;@!
+;@;@;@o;;[I";/* For Firefox to horizontally scroll wider tables. */;	T;
+;;[ ;i„;o;	;o;;i„;i ;o;;i„;iS;@;@;@o;';([I"th;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"th;	T;<0;iÂ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iÂ;$0;iÂ;iÂ;$0;1o;	;o;;iÂ;i
+;o;;iÂ;i;@;@;2i ;[o;3;[I"font-weight;	T;o;;o;4	;I"	bold;	T;
+;5;60;@;iÊ;o;	;o;;iÊ;i;o;;iÊ;i;@;@;2i ;7;8;[ ;iÊ;o;	;o;;iÊ;i;o;;iÊ;i;@;@;9o;	;@L
+;o;;iÊ;i;@;@;:o;	;o;;iÊ;i;@M
+;@;@;@;iÂ;o;	;@>
+;o;;iÂ;i;@;@;BT;@o;';([I"th, td;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"th;	T;<0;iÈ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iÈ;$0;iÈo;,;+[o;-;+[o;C	;I"td;	T;<0;iÈ;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;iÈ;$0;iÈ;iÈ;$0;1o;	;o;;iÈ;i
+;o;;iÈ;i;@;@;2i ;[o;3;[I"padding;	T;o;;o;4	;I"6px 13px;	T;
+;5;60;@;iÍ;o;	;o;;iÍ;i;o;;iÍ;i;@;@;2i ;7;8;[ ;iÍ;o;	;o;;iÍ;i;o;;iÍ;i;@;@;9o;	;@~
+;o;;iÍ;i;@;@;:o;	;o;;iÍ;i;@
+;@;@;@o;3;[I"border;	T;o;;o;4	;I"1px solid #ddd;	T;
+;5;60;@;iÎ;o;	;o;;iÎ;i;o;;iÎ;i";@;@;2i ;7;8;[ ;iÎ;o;	;o;;iÎ;i;o;;iÎ;i";@;@;9o;	;@è
+;o;;iÎ;i;@;@;:o;	;o;;iÎ;i;@ê
+;@;@;@;iÈ;o;	;@p
+;o;;iÈ;i;@;@;BT;@o;';([I"tr;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"tr;	T;<0;iÓ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iÓ;$0;iÓ;iÓ;$0;1o;	;o;;iÓ;i
+;o;;iÓ;i;@;@;2i ;[o;3;[I"background-color;	T;o;;o;4	;I"	#fff;	T;
+;5;60;@;iÔ;o;	;o;;iÔ;i;o;;iÔ;i";@;@;2i ;7;8;[ ;iÔ;o;	;o;;iÔ;i;o;;iÔ;i";@;@;9o;	;@∂
+;o;;iÔ;i;@;@;:o;	;o;;iÔ;i;@∑
+;@;@;@o;3;[I"border-top;	T;o;;o;4	;I"1px solid #ccc;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i&;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i&;@;@;9o;	;@«
+;o;;i;i;@;@;:o;	;o;;i;i;@»
+;@;@;@o;';([I"&:nth-child(2n);	T;)o;*;+[o;,;+[o;-;+[o;G;H0;iÚ;$0o;=;>;?;I"nth-child;	T;@I"2n;	T;A0;iÚ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iÚ;$0;iÚ;iÚ;$0;1o;	;o;;iÚ;i;o;;iÚ;i;@;@;2i ;[o;3;[I"background-color;	T;o;;o;4	;I"#f8f8f8;	T;
+;5;60;@;iÛ;o;	;o;;iÛ;i ;o;;iÛ;i';@;@;2i ;7;8;[ ;iÛ;o;	;o;;iÛ;i;o;;iÛ;i';@;@;9o;	;@Ó
+;o;;iÛ;i;@;@;:o;	;o;;iÛ;i ;@Ô
+;@;@;@;iÚ;o;	;@‡
+;o;;iÚ;i;@;@;BT;@;iÓ;o;	;@®
+;o;;iÓ;i;@;@;BT;@;iﬁ;o;	;@Œ	;o;;iﬁ;i;@;@;BT;@o;;[I"/* Images & Stuff */;	T;
+;;[ ;i¯;o;	;o;;i¯;i;o;;i¯;i;@;@;@o;';([I"img;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"img;	T;<0;i˘;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i	;0;0;i˘;$0;i˘;i˘;$0;1o;	;o;;i˘;i;o;;i˘;i;@;@;2i ;[o;3;[I"max-width;	T;o;;o;4	;I"	100%;	T;
+;5;60;@;i˙;o;	;o;;i˙;i;o;;i˙;i;@;@;2i ;7;8;[ ;i˙;o;	;o;;i˙;i
+;o;;i˙;i;@;@;9o;	;@ ;o;;i˙;i;@;@;:o;	;o;;i˙;i;@!;@;@;@o;3;[I"-moz-box-sizing;	T;o;;o;4	;I"border-box;	T;
+;5;60;@;i˚;o;	;o;;i˚;i;o;;i˚;i%;@;@;2i ;7;8;[ ;i˚;o;	;o;;i˚;i
+;o;;i˚;i%;@;@;9o;	;@1;o;;i˚;i;@;@;:o;	;o;;i˚;i;@2;@;@;@o;3;[I"box-sizing;	T;o;;o;4	;I"border-box;	T;
+;5;60;@;i¸;o;	;o;;i¸;i;o;;i¸;i ;@;@;2i ;7;8;[ ;i¸;o;	;o;;i¸;i
+;o;;i¸;i ;@;@;9o;	;@B;o;;i¸;i;@;@;:o;	;o;;i¸;i;@C;@;@;@;i˘;o;	;@;o;;i˘;i;@;@;BT;@o;';([I".emoji;	T;)o;*;+[o;,;+[o;-;+[o;.;I"
+emoji;	T;iˇ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iˇ;$0;iˇ;iˇ;$0;1o;	;o;;iˇ;i;o;;iˇ;i;@;@;2i ;[o;3;[I"max-width;	T;o;;o;4	;I"	none;	T;
+;5;60;@;i ;o;	;o;;i ;i;o;;i ;i;@;@;2i ;7;8;[ ;i ;o;	;o;;i ;i
+;o;;i ;i;@;@;9o;	;@i;o;;i ;i;@;@;:o;	;o;;i ;i;@j;@;@;@;iˇ;o;	;@[;o;;iˇ;i;@;@;BT;@o;;[I"/* Gollum Image Tags */;	T;
+;;[ ;i;o;	;o;;i;i;o;;i;i;@;@;@o;;[I"/* Framed */;	T;
+;;[ ;i;o;	;o;;i;i;o;;i;i;@;@;@o;';([I"span.frame;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;i;$0o;.;I"
+frame;	T;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i;o;;i;i;@;@;2i ;[
+o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i;@;@;9o;	;@†;o;;i;i;@;@;:o;	;o;;i;i;@°;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"hidden;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i
+;o;;i;i;@;@;9o;	;@±;o;;i;i;@;@;:o;	;o;;i;i;@≤;@;@;@o;';([I"& > span;	T;)o;*;+[o;,;+[o;-;+[o;G;H0;i
+;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i
+;$0I">;	To;-;+[o;C	;I"	span;	T;<0;i
+;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;i
+;$0;i
+;i
+;$0;1o;	;o;;i
+;i
+;o;;i
+;i;@;@;2i ;[o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@ﬂ;o;;i;i;@;@;:o;	;o;;i;i;@‡;@;@;@o;3;[I"
+float;	T;o;;o;4	;I"	left;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@;o;;i;i;@;@;:o;	;o;;i;i;@Ò;@;@;@o;3;[I"
+width;	T;o;;o;4	;I"	auto;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@;o;;i;i;@;@;:o;	;o;;i;i;@;@;@;@o;3;[I"padding;	T;o;;o;4	;I"7px;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@;o;;i;i;@;@;:o;	;o;;i;i;@;@;@;@o;3;[I"margin;	T;o;;o;4	;I"13px 0 0;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@#;o;;i;i;@;@;:o;	;o;;i;i;@$;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"hidden;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@4;o;;i;i;@;@;:o;	;o;;i;i;@5;@;@;@o;3;[I"border;	T;o;;o;4	;I"1px solid #ddd;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i";@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i";@;@;9o;	;@E;o;;i;i;@;@;:o;	;o;;i;i;@F;@;@;@;i
+;o;	;@—;o;;i
+;i;@;@;BT;@o;';([I"span img;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;i;$0o;-;+[o;C	;I"img;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i
+;o;;i;i;@;@;2i ;[o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@u;o;;i;i;@;@;:o;	;o;;i;i;@v;@;@;@o;3;[I"
+float;	T;o;;o;4	;I"	left;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@Ü;o;;i;i;@;@;:o;	;o;;i;i;@á;@;@;@;i;o;	;@g;o;;i;i;@;@;BT;@o;';([I"span span;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;i;$0o;-;+[o;C	;I"	span;	T;<0;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i
+;o;;i;i;@;@;2i ;[	o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@∂;o;;i;i;@;@;:o;	;o;;i;i;@∑;@;@;@o;3;[I"padding;	T;o;;o;4	;I"5px 0 0;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@«;o;;i;i;@;@;:o;	;o;;i;i;@»;@;@;@o;3;[I"
+clear;	T;o;;o;4	;I"	both;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@ÿ;o;;i;i;@;@;:o;	;o;;i;i;@Ÿ;@;@;@o;3;[I"
+color;	T;o;;o;4	;I"	#333;	T;
+;5;60;@;i;o;	;o;;i;i;o;;i;i;@;@;2i ;7;8;[ ;i;o;	;o;;i;i;o;;i;i;@;@;9o;	;@È;o;;i;i;@;@;:o;	;o;;i;i;@Í;@;@;@;i;o;	;@®;o;;i;i;@;@;BT;@;i;o;	;@í;o;;i;i;@;@;BT;@o;';([I"span.align-center;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;i!;$0o;.;I"align-center;	T;i!;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i!;$0;i!;i!;$0;1o;	;o;;i!;i;o;;i!;i;@;@;2i ;[
+o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;i";o;	;o;;i";i;o;;i";i;@;@;2i ;7;8;[ ;i";o;	;o;;i";i
+;o;;i";i;@;@;9o;	;@;o;;i";i;@;@;:o;	;o;;i";i;@;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"hidden;	T;
+;5;60;@;i#;o;	;o;;i#;i;o;;i#;i;@;@;2i ;7;8;[ ;i#;o;	;o;;i#;i
+;o;;i#;i;@;@;9o;	;@%;o;;i#;i;@;@;:o;	;o;;i#;i;@&;@;@;@o;3;[I"
+clear;	T;o;;o;4	;I"	both;	T;
+;5;60;@;i$;o;	;o;;i$;i;o;;i$;i;@;@;2i ;7;8;[ ;i$;o;	;o;;i$;i
+;o;;i$;i;@;@;9o;	;@6;o;;i$;i;@;@;:o;	;o;;i$;i;@7;@;@;@o;';([I"& > span;	T;)o;*;+[o;,;+[o;-;+[o;G;H0;i&;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i&;$0I">;	To;-;+[o;C	;I"	span;	T;<0;i&;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;i&;$0;i&;i&;$0;1o;	;o;;i&;i
+;o;;i&;i;@;@;2i ;[	o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;i';o;	;o;;i';i;o;;i';i;@;@;2i ;7;8;[ ;i';o;	;o;;i';i;o;;i';i;@;@;9o;	;@d;o;;i';i;@;@;:o;	;o;;i';i;@e;@;@;@o;3;[I"margin;	T;o;;o;4	;I"13px auto 0;	T;
+;5;60;@;i(;o;	;o;;i(;i;o;;i(;i;@;@;2i ;7;8;[ ;i(;o;	;o;;i(;i;o;;i(;i;@;@;9o;	;@u;o;;i(;i;@;@;:o;	;o;;i(;i;@v;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"hidden;	T;
+;5;60;@;i);o;	;o;;i);i;o;;i);i;@;@;2i ;7;8;[ ;i);o;	;o;;i);i;o;;i);i;@;@;9o;	;@Ü;o;;i);i;@;@;:o;	;o;;i);i;@á;@;@;@o;3;[I"text-align;	T;o;;o;4	;I"center;	T;
+;5;60;@;i*;o;	;o;;i*;i;o;;i*;i;@;@;2i ;7;8;[ ;i*;o;	;o;;i*;i;o;;i*;i;@;@;9o;	;@ó;o;;i*;i;@;@;:o;	;o;;i*;i;@ò;@;@;@;i&;o;	;@V;o;;i&;i;@;@;BT;@o;';([I"span img;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;i-;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;i-;$0o;-;+[o;C	;I"img;	T;<0;i-;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i-;$0;i-;i-;$0;1o;	;o;;i-;i
+;o;;i-;i;@;@;2i ;[o;3;[I"margin;	T;o;;o;4	;I"0 auto;	T;
+;5;60;@;i.;o;	;o;;i.;i;o;;i.;i;@;@;2i ;7;8;[ ;i.;o;	;o;;i.;i;o;;i.;i;@;@;9o;	;@«;o;;i.;i;@;@;:o;	;o;;i.;i;@»;@;@;@o;3;[I"text-align;	T;o;;o;4	;I"center;	T;
+;5;60;@;i/;o;	;o;;i/;i;o;;i/;i;@;@;2i ;7;8;[ ;i/;o;	;o;;i/;i;o;;i/;i;@;@;9o;	;@ÿ;o;;i/;i;@;@;:o;	;o;;i/;i;@Ÿ;@;@;@;i-;o;	;@π;o;;i-;i;@;@;BT;@;i!;o;	;@;o;;i!;i;@;@;BT;@o;';([I"span.align-right;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;i3;$0o;.;I"align-right;	T;i3;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i3;$0;i3;i3;$0;1o;	;o;;i3;i;o;;i3;i;@;@;2i ;[
+o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;i4;o;	;o;;i4;i;o;;i4;i;@;@;2i ;7;8;[ ;i4;o;	;o;;i4;i
+;o;;i4;i;@;@;9o;	;@;o;;i4;i;@;@;:o;	;o;;i4;i;@;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"hidden;	T;
+;5;60;@;i5;o;	;o;;i5;i;o;;i5;i;@;@;2i ;7;8;[ ;i5;o;	;o;;i5;i
+;o;;i5;i;@;@;9o;	;@;o;;i5;i;@;@;:o;	;o;;i5;i;@;@;@;@o;3;[I"
+clear;	T;o;;o;4	;I"	both;	T;
+;5;60;@;i6;o;	;o;;i6;i;o;;i6;i;@;@;2i ;7;8;[ ;i6;o;	;o;;i6;i
+;o;;i6;i;@;@;9o;	;@%;o;;i6;i;@;@;:o;	;o;;i6;i;@&;@;@;@o;';([I"& > span;	T;)o;*;+[o;,;+[o;-;+[o;G;H0;i8;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i8;$0I">;	To;-;+[o;C	;I"	span;	T;<0;i8;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;i8;$0;i8;i8;$0;1o;	;o;;i8;i
+;o;;i8;i;@;@;2i ;[	o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;i9;o;	;o;;i9;i;o;;i9;i;@;@;2i ;7;8;[ ;i9;o;	;o;;i9;i;o;;i9;i;@;@;9o;	;@S;o;;i9;i;@;@;:o;	;o;;i9;i;@T;@;@;@o;3;[I"margin;	T;o;;o;4	;I"13px 0 0;	T;
+;5;60;@;i:;o;	;o;;i:;i;o;;i:;i;@;@;2i ;7;8;[ ;i:;o;	;o;;i:;i;o;;i:;i;@;@;9o;	;@d;o;;i:;i;@;@;:o;	;o;;i:;i;@e;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"hidden;	T;
+;5;60;@;i;;o;	;o;;i;;i;o;;i;;i;@;@;2i ;7;8;[ ;i;;o;	;o;;i;;i;o;;i;;i;@;@;9o;	;@u;o;;i;;i;@;@;:o;	;o;;i;;i;@v;@;@;@o;3;[I"text-align;	T;o;;o;4	;I"
+right;	T;
+;5;60;@;i<;o;	;o;;i<;i;o;;i<;i;@;@;2i ;7;8;[ ;i<;o;	;o;;i<;i;o;;i<;i;@;@;9o;	;@Ü;o;;i<;i;@;@;:o;	;o;;i<;i;@á;@;@;@;i8;o;	;@E;o;;i8;i;@;@;BT;@o;';([I"span img;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;i?;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;i?;$0o;-;+[o;C	;I"img;	T;<0;i?;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i?;$0;i?;i?;$0;1o;	;o;;i?;i
+;o;;i?;i;@;@;2i ;[o;3;[I"margin;	T;o;;o;4	;I"0;	T;
+;5;60;@;i@;o;	;o;;i@;i;o;;i@;i;@;@;2i ;7;8;[ ;i@;o;	;o;;i@;i;o;;i@;i;@;@;9o;	;@∂;o;;i@;i;@;@;:o;	;o;;i@;i;@∑;@;@;@o;3;[I"text-align;	T;o;;o;4	;I"
+right;	T;
+;5;60;@;iA;o;	;o;;iA;i;o;;iA;i;@;@;2i ;7;8;[ ;iA;o;	;o;;iA;i;o;;iA;i;@;@;9o;	;@«;o;;iA;i;@;@;:o;	;o;;iA;i;@»;@;@;@;i?;o;	;@®;o;;i?;i;@;@;BT;@;i3;o;	;@ı;o;;i3;i;@;@;BT;@o;';([I"span.float-left;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;iE;$0o;.;I"float-left;	T;iE;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iE;$0;iE;iE;$0;1o;	;o;;iE;i;o;;iE;i;@;@;2i ;[
+o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;iF;o;	;o;;iF;i;o;;iF;i;@;@;2i ;7;8;[ ;iF;o;	;o;;iF;i
+;o;;iF;i;@;@;9o;	;@Ú;o;;iF;i;@;@;:o;	;o;;iF;i;@Û;@;@;@o;3;[I"
+float;	T;o;;o;4	;I"	left;	T;
+;5;60;@;iG;o;	;o;;iG;i;o;;iG;i;@;@;2i ;7;8;[ ;iG;o;	;o;;iG;i
+;o;;iG;i;@;@;9o;	;@;o;;iG;i;@;@;:o;	;o;;iG;i;@;@;@;@o;3;[I"margin-right;	T;o;;o;4	;I"	13px;	T;
+;5;60;@;iH;o;	;o;;iH;i;o;;iH;i;@;@;2i ;7;8;[ ;iH;o;	;o;;iH;i
+;o;;iH;i;@;@;9o;	;@;o;;iH;i;@;@;:o;	;o;;iH;i;@;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"hidden;	T;
+;5;60;@;iI;o;	;o;;iI;i;o;;iI;i;@;@;2i ;7;8;[ ;iI;o;	;o;;iI;i
+;o;;iI;i;@;@;9o;	;@%;o;;iI;i;@;@;:o;	;o;;iI;i;@&;@;@;@o;';([I"	span;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;iK;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;iK;$0;iK;iK;$0;1o;	;o;;iK;i
+;o;;iK;i;@;@;2i ;[o;3;[I"margin;	T;o;;o;4	;I"13px 0 0;	T;
+;5;60;@;iL;o;	;o;;iL;i;o;;iL;i;@;@;2i ;7;8;[ ;iL;o;	;o;;iL;i;o;;iL;i;@;@;9o;	;@J;o;;iL;i;@;@;:o;	;o;;iL;i;@K;@;@;@;iK;o;	;@<;o;;iK;i;@;@;BT;@;iE;o;	;@‰;o;;iE;i;@;@;BT;@o;';([I"span.float-right;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	span;	T;<0;iP;$0o;.;I"float-right;	T;iP;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iP;$0;iP;iP;$0;1o;	;o;;iP;i;o;;iP;i;@;@;2i ;[
+o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;iQ;o;	;o;;iQ;i;o;;iQ;i;@;@;2i ;7;8;[ ;iQ;o;	;o;;iQ;i
+;o;;iQ;i;@;@;9o;	;@u;o;;iQ;i;@;@;:o;	;o;;iQ;i;@v;@;@;@o;3;[I"
+float;	T;o;;o;4	;I"
+right;	T;
+;5;60;@;iR;o;	;o;;iR;i;o;;iR;i;@;@;2i ;7;8;[ ;iR;o;	;o;;iR;i
+;o;;iR;i;@;@;9o;	;@Ü;o;;iR;i;@;@;:o;	;o;;iR;i;@á;@;@;@o;3;[I"margin-left;	T;o;;o;4	;I"	13px;	T;
+;5;60;@;iS;o;	;o;;iS;i;o;;iS;i;@;@;2i ;7;8;[ ;iS;o;	;o;;iS;i
+;o;;iS;i;@;@;9o;	;@ó;o;;iS;i;@;@;:o;	;o;;iS;i;@ò;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"hidden;	T;
+;5;60;@;iT;o;	;o;;iT;i;o;;iT;i;@;@;2i ;7;8;[ ;iT;o;	;o;;iT;i
+;o;;iT;i;@;@;9o;	;@®;o;;iT;i;@;@;:o;	;o;;iT;i;@©;@;@;@o;';([I"& > span;	T;)o;*;+[o;,;+[o;-;+[o;G;H0;iV;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iV;$0I">;	To;-;+[o;C	;I"	span;	T;<0;iV;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;iV;$0;iV;iV;$0;1o;	;o;;iV;i
+;o;;iV;i;@;@;2i ;[	o;3;[I"display;	T;o;;o;4	;I"
+block;	T;
+;5;60;@;iW;o;	;o;;iW;i;o;;iW;i;@;@;2i ;7;8;[ ;iW;o;	;o;;iW;i;o;;iW;i;@;@;9o;	;@÷;o;;iW;i;@;@;:o;	;o;;iW;i;@◊;@;@;@o;3;[I"margin;	T;o;;o;4	;I"13px auto 0;	T;
+;5;60;@;iX;o;	;o;;iX;i;o;;iX;i;@;@;2i ;7;8;[ ;iX;o;	;o;;iX;i;o;;iX;i;@;@;9o;	;@Á;o;;iX;i;@;@;:o;	;o;;iX;i;@Ë;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"hidden;	T;
+;5;60;@;iY;o;	;o;;iY;i;o;;iY;i;@;@;2i ;7;8;[ ;iY;o;	;o;;iY;i;o;;iY;i;@;@;9o;	;@¯;o;;iY;i;@;@;:o;	;o;;iY;i;@˘;@;@;@o;3;[I"text-align;	T;o;;o;4	;I"
+right;	T;
+;5;60;@;iZ;o;	;o;;iZ;i;o;;iZ;i;@;@;2i ;7;8;[ ;iZ;o;	;o;;iZ;i;o;;iZ;i;@;@;9o;	;@	;o;;iZ;i;@;@;:o;	;o;;iZ;i;@
+;@;@;@;iV;o;	;@»;o;;iV;i;@;@;BT;@;iP;o;	;@g;o;;iP;i;@;@;BT;@o;;[I"/* Inline code snippets */;	T;
+;;[ ;i^;o;	;o;;i^;i;o;;i^;i;@;@;@o;';([I"code,
+  tt;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"	code;	T;<0;i_;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;i_;$0;i_o;,;+[I"
+;	To;-;+[o;C	;I"tt;	T;<0;i_;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i
+;0;0;i_;$0;i_;i_;$0;1o;	;o;;i_;i;o;;i`;i;@;@;2i ;[o;3;[I"padding;	T;o;;o;4	;I"0;	T;
+;5;60;@;ia;o;	;o;;ia;i;o;;ia;i;@;@;2i ;7;8;[ ;ia;o;	;o;;ia;i
+;o;;ia;i;@;@;9o;	;@E;o;;ia;i;@;@;:o;	;o;;ia;i;@F;@;@;@o;3;[I"padding-top;	T;o;;o;4	;I"
+0.2em;	T;
+;5;60;@;ib;o;	;o;;ib;i;o;;ib;i;@;@;2i ;7;8;[ ;ib;o;	;o;;ib;i
+;o;;ib;i;@;@;9o;	;@V;o;;ib;i;@;@;:o;	;o;;ib;i;@W;@;@;@o;3;[I"padding-bottom;	T;o;;o;4	;I"
+0.2em;	T;
+;5;60;@;ic;o;	;o;;ic;i;o;;ic;i;@;@;2i ;7;8;[ ;ic;o;	;o;;ic;i
+;o;;ic;i;@;@;9o;	;@g;o;;ic;i;@;@;:o;	;o;;ic;i;@h;@;@;@o;3;[I"margin;	T;o;;o;4	;I"0;	T;
+;5;60;@;id;o;	;o;;id;i;o;;id;i;@;@;2i ;7;8;[ ;id;o;	;o;;id;i
+;o;;id;i;@;@;9o;	;@x;o;;id;i;@;@;:o;	;o;;id;i;@y;@;@;@o;3;[I"font-size;	T;o;;o;4	;I"85%;	T;
+;5;60;@;ie;o;	;o;;ie;i;o;;ie;i;@;@;2i ;7;8;[ ;ie;o;	;o;;ie;i
+;o;;ie;i;@;@;9o;	;@â;o;;ie;i;@;@;:o;	;o;;ie;i;@ä;@;@;@o;3;[I"background-color;	T;o: Sass::Script::Tree::Funcall;I"	rgba;	T:
+@args[	o;	;o; 
+;i ;![ ;"@÷;@;#I"0;	F;if;o;	;o;;if;i!;o;;if;i";@;@;$@o;	;o; 
+;i ;![ ;"@÷;@;#I"0;	F;if;o;	;o;;if;i#;o;;if;i$;@;@;$@o;	;o; 
+;i ;![ ;"@÷;@;#I"0;	F;if;o;	;o;;if;i%;o;;if;i&;@;@;$@o;	;o; 
+;f	0.04;![ ;"@÷;@;#I"	0.04;	F;if;o;	;o;;if;i';o;;if;i+;@;@;$@:@keywordso:Sass::Util::NormalizedMap:@key_strings{ :	@map{ :@splat0:@kwarg_splat0;if;o;	;o;;if;i;o;;if;i,;@;@;$@;@;2i ;7;8;[ ;if;o;	;o;;if;i
+;o;;if;i,;@;@;9o;	;@∫;o;;if;i;@;@;:o;	;o;;if;i;@ª;@;@;@o;3;[I"border-radius;	T;o;;o;4	;I"3px;	T;
+;5;60;@;ig;o;	;o;;ig;i;o;;ig;i;@;@;2i ;7;8;[ ;ig;o;	;o;;ig;i
+;o;;ig;i;@;@;9o;	;@À;o;;ig;i;@;@;:o;	;o;;ig;i;@Ã;@;@;@o;;[I"./* don't add padding, gives scrollbars */;	T;
+;;[ ;ig;o;	;o;;ig;i;o;;ig;iD;@;@;@o;';([I"&:before,
+    &:after;	T;)o;*;+[o;,;+[o;-;+[o;G;H0;ii;$0o;=;>;?;I"before;	T;@0;A0;ii;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;ii;$0;iio;,;+[I"
+;	To;-;+[o;G;H0;ii;$0o;=;>;?;I"
+after;	T;@0;A0;ii;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;ii;$0;ii;ii;$0;1o;	;o;;ii;i
+;o;;ij;i;@;@;2i ;[o;3;[I"letter-spacing;	T;o;;o;4	;I"-0.2em;	T;
+;5;60;@;ik;o;	;o;;ik;i;o;;ik;i";@;@;2i ;7;8;[ ;ik;o;	;o;;ik;i;o;;ik;i";@;@;9o;	;@;o;;ik;i;@;@;:o;	;o;;ik;i;@;@;@;@o;;[I"/* this creates padding */;	T;
+;;[ ;ik;o;	;o;;ik;i$;o;;ik;i;;@;@;@o;3;[I"content;	T;o;;o;4	;I""\00a0";	T;
+;5;60;@;il;o;	;o;;il;i;o;;il;i;@;@;2i ;7;8;[ ;il;o;	;o;;il;i;o;;il;i;@;@;9o;	;@;o;;il;i;@;@;:o;	;o;;il;i;@;@;@;@;ii;o;	;@˜;o;;ij;i;@;@;BT;@o;';([I"br;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"br;	T;<0;io;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;io;$0;io;io;$0;1o;	;o;;io;i
+;o;;io;i;@;@;2i ;[o;3;[I"display;	T;o;;o;4	;I"	none;	T;
+;5;60;@;io;o;	;o;;io;i;o;;io;i;@;@;2i ;7;8;[ ;io;o;	;o;;io;i;o;;io;i;@;@;9o;	;@D;o;;io;i;@;@;:o;	;o;;io;i;@E;@;@;@;io;o;	;@6;o;;io;i;@;@;BT;@;i_;o;	;@7;o;;i`;i;@;@;BT;@o;';([I"del code;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"del;	T;<0;ir;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i	;0;0;ir;$0o;-;+[o;C	;I"	code;	T;<0;ir;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;ir;$0;ir;ir;$0;1o;	;o;;ir;i;o;;ir;i;@;@;2i ;[o;3;[I"text-decoration;	T;o;;o;4	;I"inherit;	T;
+;5;60;@;ir;o;	;o;;ir;i$;o;;ir;i+;@;@;2i ;7;8;[ ;ir;o;	;o;;ir;i;o;;ir;i+;@;@;9o;	;@v;o;;ir;i";@;@;:o;	;o;;ir;i$;@w;@;@;@;ir;o;	;@h;o;;ir;i;@;@;BT;@o;;[I"0/* Code tags within code blocks (<pre>s) */;	T;
+;;[ ;it;o;	;o;;it;i;o;;it;i0;@;@;@o;';([I"pre > code;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"pre;	T;<0;iu;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i	;0;0;iu;$0I">;	To;-;+[o;C	;I"	code;	T;<0;iu;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iu;$0;iu;iu;$0;1o;	;o;;iu;i;o;;iu;i;@;@;2i ;[o;3;[I"padding;	T;o;;o;4	;I"0;	T;
+;5;60;@;iv;o;	;o;;iv;i;o;;iv;i;@;@;2i ;7;8;[ ;iv;o;	;o;;iv;i
+;o;;iv;i;@;@;9o;	;@Æ;o;;iv;i;@;@;:o;	;o;;iv;i;@Ø;@;@;@o;3;[I"margin;	T;o;;o;4	;I"0;	T;
+;5;60;@;iw;o;	;o;;iw;i;o;;iw;i;@;@;2i ;7;8;[ ;iw;o;	;o;;iw;i
+;o;;iw;i;@;@;9o;	;@ø;o;;iw;i;@;@;:o;	;o;;iw;i;@¿;@;@;@o;3;[I"font-size;	T;o;;o;4	;I"	100%;	T;
+;5;60;@;ix;o;	;o;;ix;i;o;;ix;i;@;@;2i ;7;8;[ ;ix;o;	;o;;ix;i
+;o;;ix;i;@;@;9o;	;@–;o;;ix;i;@;@;:o;	;o;;ix;i;@—;@;@;@o;3;[I"word-break;	T;o;;o;4	;I"normal;	T;
+;5;60;@;iy;o;	;o;;iy;i;o;;iy;i;@;@;2i ;7;8;[ ;iy;o;	;o;;iy;i
+;o;;iy;i;@;@;9o;	;@·;o;;iy;i;@;@;:o;	;o;;iy;i;@‚;@;@;@o;3;[I"white-space;	T;o;;o;4	;I"pre;	T;
+;5;60;@;iz;o;	;o;;iz;i;o;;iz;i;@;@;2i ;7;8;[ ;iz;o;	;o;;iz;i
+;o;;iz;i;@;@;9o;	;@Ú;o;;iz;i;@;@;:o;	;o;;iz;i;@Û;@;@;@o;3;[I"background;	T;o;;o;4	;I"transparent;	T;
+;5;60;@;i{;o;	;o;;i{;i;o;;i{;i!;@;@;2i ;7;8;[ ;i{;o;	;o;;i{;i
+;o;;i{;i!;@;@;9o;	;@;o;;i{;i;@;@;:o;	;o;;i{;i;@;@;@;@o;3;[I"border;	T;o;;o;4	;I"0;	T;
+;5;60;@;i|;o;	;o;;i|;i;o;;i|;i;@;@;2i ;7;8;[ ;i|;o;	;o;;i|;i
+;o;;i|;i;@;@;9o;	;@;o;;i|;i;@;@;:o;	;o;;i|;i;@;@;@;@;iu;o;	;@†;o;;iu;i;@;@;BT;@o;';([I".highlight;	T;)o;*;+[o;,;+[o;-;+[o;.;I"highlight;	T;i;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i;$0;i;i;$0;1o;	;o;;i;i;o;;i;i;@;@;2i ;[o;3;[I"margin-bottom;	T;o;I;I"margin;	T;JI"margin;	T;iÄ;o;	;o;;iÄ;i;o;;iÄ;i ;@;@;$@;@;2i ;7;8;[ ;iÄ;o;	;o;;iÄ;i
+;o;;iÄ;i ;@;@;9o;	;@;;o;;iÄ;i;@;@;:o;	;o;;iÄ;i;@<;@;@;@;i;o;	;@-;o;;i;i;@;@;BT;@o;';([I".highlight pre,
+  pre;	T;)o;*;+[o;,;+[o;-;+[o;.;I"highlight;	T;iÉ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iÉ;$0o;-;+[o;C	;I"pre;	T;<0;iÉ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iÉ;$0;iÉo;,;+[I"
+;	To;-;+[o;C	;I"pre;	T;<0;iÉ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iÉ;$0;iÉ;iÉ;$0;1o;	;o;;iÉ;i;o;;iÑ;i;@;@;2i ;[o;3;[I"padding;	T;o;I;I"margin;	T;JI"margin;	T;iÖ;o;	;o;;iÖ;i;o;;iÖ;i;@;@;$@;@;2i ;7;8;[ ;iÖ;o;	;o;;iÖ;i
+;o;;iÖ;i;@;@;9o;	;@w;o;;iÖ;i;@;@;:o;	;o;;iÖ;i;@x;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"	auto;	T;
+;5;60;@;iÜ;o;	;o;;iÜ;i;o;;iÜ;i;@;@;2i ;7;8;[ ;iÜ;o;	;o;;iÜ;i
+;o;;iÜ;i;@;@;9o;	;@à;o;;iÜ;i;@;@;:o;	;o;;iÜ;i;@â;@;@;@o;3;[I"font-size;	T;o;;o;4	;I"85%;	T;
+;5;60;@;iá;o;	;o;;iá;i;o;;iá;i;@;@;2i ;7;8;[ ;iá;o;	;o;;iá;i
+;o;;iá;i;@;@;9o;	;@ô;o;;iá;i;@;@;:o;	;o;;iá;i;@ö;@;@;@o;3;[I"line-height;	T;o;;o;4	;I"	1.45;	T;
+;5;60;@;ià;o;	;o;;ià;i;o;;ià;i;@;@;2i ;7;8;[ ;ià;o;	;o;;ià;i
+;o;;ià;i;@;@;9o;	;@™;o;;ià;i;@;@;:o;	;o;;ià;i;@´;@;@;@o;3;[I"background-color;	T;o;;o;4	;I"#f7f7f7;	T;
+;5;60;@;iâ;o;	;o;;iâ;i;o;;iâ;i#;@;@;2i ;7;8;[ ;iâ;o;	;o;;iâ;i
+;o;;iâ;i#;@;@;9o;	;@ª;o;;iâ;i;@;@;:o;	;o;;iâ;i;@º;@;@;@o;3;[I"border-radius;	T;o;;o;4	;I"3px;	T;
+;5;60;@;iä;o;	;o;;iä;i;o;;iä;i;@;@;2i ;7;8;[ ;iä;o;	;o;;iä;i
+;o;;iä;i;@;@;9o;	;@Ã;o;;iä;i;@;@;:o;	;o;;iä;i;@Õ;@;@;@;iÉ;o;	;@i;o;;iÑ;i;@;@;BT;@o;';([I".highlight pre;	T;)o;*;+[o;,;+[o;-;+[o;.;I"highlight;	T;iç;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iç;$0o;-;+[o;C	;I"pre;	T;<0;iç;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iç;$0;iç;iç;$0;1o;	;o;;iç;i;o;;iç;i;@;@;2i ;[o;3;[I"margin-bottom;	T;o;;o;4	;I"0;	T;
+;5;60;@;ié;o;	;o;;ié;i;o;;ié;i;@;@;2i ;7;8;[ ;ié;o;	;o;;ié;i
+;o;;ié;i;@;@;9o;	;@¸;o;;ié;i;@;@;:o;	;o;;ié;i;@˝;@;@;@o;3;[I"word-break;	T;o;;o;4	;I"normal;	T;
+;5;60;@;iè;o;	;o;;iè;i;o;;iè;i;@;@;2i ;7;8;[ ;iè;o;	;o;;iè;i
+;o;;iè;i;@;@;9o;	;@;o;;iè;i;@;@;:o;	;o;;iè;i;@;@;@;@;iç;o;	;@Ó;o;;iç;i;@;@;BT;@o;';([I"pre;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"pre;	T;<0;ií;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i	;0;0;ií;$0;ií;ií;$0;1o;	;o;;ií;i;o;;ií;i;@;@;2i ;[o;3;[I"word-wrap;	T;o;;o;4	;I"normal;	T;
+;5;60;@;iì;o;	;o;;iì;i;o;;iì;i;@;@;2i ;7;8;[ ;iì;o;	;o;;iì;i
+;o;;iì;i;@;@;9o;	;@4;o;;iì;i;@;@;:o;	;o;;iì;i;@5;@;@;@;ií;o;	;@&;o;;ií;i;@;@;BT;@o;';([I"pre code,
+  pre tt;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"pre;	T;<0;iñ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i	;0;0;iñ;$0o;-;+[o;C	;I"	code;	T;<0;iñ;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;iñ;$0;iño;,;+[I"
+;	To;-;+[o;C	;I"pre;	T;<0;iñ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iñ;$0o;-;+[o;C	;I"tt;	T;<0;iñ;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;iñ;$0;iñ;iñ;$0;1o;	;o;;iñ;i;o;;ió;i;@;@;2i ;[o;3;[I"display;	T;o;;o;4	;I"inline;	T;
+;5;60;@;iò;o;	;o;;iò;i;o;;iò;i;@;@;2i ;7;8;[ ;iò;o;	;o;;iò;i
+;o;;iò;i;@;@;9o;	;@y;o;;iò;i;@;@;:o;	;o;;iò;i;@z;@;@;@o;3;[I"max-width;	T;o;;o;4	;I"initial;	T;
+;5;60;@;iô;o;	;o;;iô;i;o;;iô;i;@;@;2i ;7;8;[ ;iô;o;	;o;;iô;i
+;o;;iô;i;@;@;9o;	;@ä;o;;iô;i;@;@;:o;	;o;;iô;i;@ã;@;@;@o;3;[I"padding;	T;o;;o;4	;I"0;	T;
+;5;60;@;iö;o;	;o;;iö;i;o;;iö;i;@;@;2i ;7;8;[ ;iö;o;	;o;;iö;i
+;o;;iö;i;@;@;9o;	;@õ;o;;iö;i;@;@;:o;	;o;;iö;i;@ú;@;@;@o;3;[I"margin;	T;o;;o;4	;I"0;	T;
+;5;60;@;iõ;o;	;o;;iõ;i;o;;iõ;i;@;@;2i ;7;8;[ ;iõ;o;	;o;;iõ;i
+;o;;iõ;i;@;@;9o;	;@¨;o;;iõ;i;@;@;:o;	;o;;iõ;i;@≠;@;@;@o;3;[I"overflow;	T;o;;o;4	;I"initial;	T;
+;5;60;@;iú;o;	;o;;iú;i;o;;iú;i;@;@;2i ;7;8;[ ;iú;o;	;o;;iú;i
+;o;;iú;i;@;@;9o;	;@Ω;o;;iú;i;@;@;:o;	;o;;iú;i;@æ;@;@;@o;3;[I"line-height;	T;o;;o;4	;I"inherit;	T;
+;5;60;@;iù;o;	;o;;iù;i;o;;iù;i;@;@;2i ;7;8;[ ;iù;o;	;o;;iù;i
+;o;;iù;i;@;@;9o;	;@Œ;o;;iù;i;@;@;:o;	;o;;iù;i;@œ;@;@;@o;3;[I"word-wrap;	T;o;;o;4	;I"normal;	T;
+;5;60;@;iû;o;	;o;;iû;i;o;;iû;i;@;@;2i ;7;8;[ ;iû;o;	;o;;iû;i
+;o;;iû;i;@;@;9o;	;@ﬂ;o;;iû;i;@;@;:o;	;o;;iû;i;@‡;@;@;@o;3;[I"background-color;	T;o;;o;4	;I"transparent;	T;
+;5;60;@;iü;o;	;o;;iü;i;o;;iü;i';@;@;2i ;7;8;[ ;iü;o;	;o;;iü;i
+;o;;iü;i';@;@;9o;	;@;o;;iü;i;@;@;:o;	;o;;iü;i;@Ò;@;@;@o;3;[I"border;	T;o;;o;4	;I"0;	T;
+;5;60;@;i†;o;	;o;;i†;i;o;;i†;i;@;@;2i ;7;8;[ ;i†;o;	;o;;i†;i
+;o;;i†;i;@;@;9o;	;@;o;;i†;i;@;@;:o;	;o;;i†;i;@;@;@;@o;';([I"&:before,
+    &:after;	T;)o;*;+[o;,;+[o;-;+[o;G;H0;i¢;$0o;=;>;?;I"before;	T;@0;A0;i¢;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i;0;0;i¢;$0;i¢o;,;+[I"
+;	To;-;+[o;G;H0;i¢;$0o;=;>;?;I"
+after;	T;@0;A0;i¢;$0;/0;0o;;{ ;o;	;o;;i;i
+;o;;i;i;0;0;i¢;$0;i¢;i¢;$0;1o;	;o;;i¢;i
+;o;;i£;i;@;@;2i ;[o;3;[I"content;	T;o;;o;4	;I"normal;	T;
+;5;60;@;i§;o;	;o;;i§;i;o;;i§;i;@;@;2i ;7;8;[ ;i§;o;	;o;;i§;i;o;;i§;i;@;@;9o;	;@4;o;;i§;i;@;@;:o;	;o;;i§;i;@5;@;@;@;i¢;o;	;@&;o;;i£;i;@;@;BT;@;iñ;o;	;@k;o;;ió;i;@;@;BT;@o;';([I"kbd;	T;)o;*;+[o;,;+[o;-;+[o;C	;I"kbd;	T;<0;i®;$0;/0;0o;;{ ;o;	;o;;i;i;o;;i;i	;0;0;i®;$0;i®;i®;$0;1o;	;o;;i®;i;o;;i®;i;@;@;2i ;[o;3;[I"display;	T;o;;o;4	;I"inline-block;	T;
+;5;60;@;i©;o;	;o;;i©;i;o;;i©;i;@;@;2i ;7;8;[ ;i©;o;	;o;;i©;i
+;o;;i©;i;@;@;9o;	;@];o;;i©;i;@;@;:o;	;o;;i©;i;@^;@;@;@o;3;[I"padding;	T;o;;o;4	;I"3px 5px;	T;
+;5;60;@;i™;o;	;o;;i™;i;o;;i™;i;@;@;2i ;7;8;[ ;i™;o;	;o;;i™;i
+;o;;i™;i;@;@;9o;	;@n;o;;i™;i;@;@;:o;	;o;;i™;i;@o;@;@;@o;3;[I"font-size;	T;o;;o;4	;I"	11px;	T;
+;5;60;@;i´;o;	;o;;i´;i;o;;i´;i;@;@;2i ;7;8;[ ;i´;o;	;o;;i´;i
+;o;;i´;i;@;@;9o;	;@;o;;i´;i;@;@;:o;	;o;;i´;i;@Ä;@;@;@o;3;[I"line-height;	T;o;;o;4	;I"	10px;	T;
+;5;60;@;i¨;o;	;o;;i¨;i;o;;i¨;i;@;@;2i ;7;8;[ ;i¨;o;	;o;;i¨;i
+;o;;i¨;i;@;@;9o;	;@ê;o;;i¨;i;@;@;:o;	;o;;i¨;i;@ë;@;@;@o;3;[I"
+color;	T;o;;o;4	;I"	#555;	T;
+;5;60;@;i≠;o;	;o;;i≠;i;o;;i≠;i;@;@;2i ;7;8;[ ;i≠;o;	;o;;i≠;i
+;o;;i≠;i;@;@;9o;	;@°;o;;i≠;i;@;@;:o;	;o;;i≠;i;@¢;@;@;@o;3;[I"vertical-align;	T;o;;o;4	;I"middle;	T;
+;5;60;@;iÆ;o;	;o;;iÆ;i;o;;iÆ;i ;@;@;2i ;7;8;[ ;iÆ;o;	;o;;iÆ;i
+;o;;iÆ;i ;@;@;9o;	;@≤;o;;iÆ;i;@;@;:o;	;o;;iÆ;i;@≥;@;@;@o;3;[I"background-color;	T;o;;o;4	;I"#fcfcfc;	T;
+;5;60;@;iØ;o;	;o;;iØ;i;o;;iØ;i#;@;@;2i ;7;8;[ ;iØ;o;	;o;;iØ;i
+;o;;iØ;i#;@;@;9o;	;@√;o;;iØ;i;@;@;:o;	;o;;iØ;i;@ƒ;@;@;@o;3;[I"border;	T;o;;o;4	;I"solid 1px #ccc;	T;
+;5;60;@;i∞;o;	;o;;i∞;i;o;;i∞;i ;@;@;2i ;7;8;[ ;i∞;o;	;o;;i∞;i
+;o;;i∞;i ;@;@;9o;	;@‘;o;;i∞;i;@;@;:o;	;o;;i∞;i;@’;@;@;@o;3;[I"border-bottom-color;	T;o;;o;4	;I"	#bbb;	T;
+;5;60;@;i±;o;	;o;;i±;i;o;;i±;i#;@;@;2i ;7;8;[ ;i±;o;	;o;;i±;i
+;o;;i±;i#;@;@;9o;	;@Â;o;;i±;i;@;@;:o;	;o;;i±;i;@Ê;@;@;@o;3;[I"border-radius;	T;o;;o;4	;I"3px;	T;
+;5;60;@;i≤;o;	;o;;i≤;i;o;;i≤;i;@;@;2i ;7;8;[ ;i≤;o;	;o;;i≤;i
+;o;;i≤;i;@;@;9o;	;@ˆ;o;;i≤;i;@;@;:o;	;o;;i≤;i;@˜;@;@;@o;3;[I"box-shadow;	T;o;;o;4	;I"inset 0 -1px 0 #bbb;	T;
+;5;60;@;i≥;o;	;o;;i≥;i;o;;i≥;i);@;@;2i ;7;8;[ ;i≥;o;	;o;;i≥;i
+;o;;i≥;i);@;@;9o;	;@;o;;i≥;i;@;@;:o;	;o;;i≥;i;@;@;@;@;i®;o;	;@O;o;;i®;i;@;@;BT;@;i¸;o;	;@C;o;;i¸;i;@;@;BT;@:@templateI"6K// GitHub Flavored Markdown
+// ================================
+//
+// *View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
+//
+// Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:
+//
+// Roses are red
+// Violets are blue
+//
+// The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:
+//
+// Roses are red
+// Violets are blue
+//
+// Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.
+//
+// A bit of the GitHub spice
+// -------------------------
+//
+// In addition to the changes in the previous section, certain references are auto-linked:
+//
+// * SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+// * User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+// * User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+// * \#Num: #1
+// * User/#Num: mojombo#1
+//   * SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+//   * User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+//   * User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+//   * \#Num: #1
+//   * User/#Num: mojombo#1
+// * User/Project#Num: mojombo/god#1
+//
+// These are dangerous goodies though, and we need to make sure email addresses don't get mangled:
+//
+// My email addy is tom@github.com.
+//
+// Good rules
+// -------------
+//
+// Actually there's nothing wrong with this `<hr>`
+//
+// ---
+//
+// A mathematician is a device for turning coffee into theorems
+// -------------------------------
+//
+// In first grade I learned that 5 > 3 and 2 < 7. Maybe some arrows. 1 -> 2 -> 3. 9 <- 8 <- 7.
+//
+// Triangles man! a^2 + b^2 = c^2
+//
+// We all like making lists
+// ------------------------
+//
+// The above header should be an H2 tag. Now, for a list of fruits:
+//
+// * Red Apples
+// * Purple Grapes
+// * Green Kiwifruits
+//
+// Let's get crazy:
+//
+// 1.  This is a list item with two paragraphs. Lorem ipsum dolor
+//     sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+//     mi posuere lectus.
+//
+//     Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+//     vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+//     sit amet velit.
+//
+// 2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+//
+// What about some code **in** a list? That's insane, right?
+//
+// 1. In Ruby you can map like this:
+//
+//         ['a', 'b'].map { |x| x.uppercase }
+//
+// 2. In Rails, you can do a shortcut:
+//
+//         ['a', 'b'].map(&:uppercase)
+//
+// Some people seem to like definition lists
+//
+// <dl>
+//   <dt>Lower cost</dt>
+//   <dd>The new version of this product costs significantly less than the previous one!</dd>
+//   <dt>Easier to use</dt>
+//   <dd>We've changed the product so that it's much easier to use!</dd>
+// </dl>
+//
+// I am a robot
+// ------------
+//
+// Maybe you want to print `robot` to the console 1000 times. Why not?
+//
+//     def robot_invasion
+//       puts("robot " * 1000)
+//     end
+//
+// You see, that was formatted as code because it's been indented by four spaces.
+//
+// How about we throw some angle braces and ampersands in there?
+//
+//     <div class="footer">
+//         &copy; 2004 Foo Corporation
+//     </div>
+//
+// Set in stone
+// ------------
+//
+// Playing the blame game
+// ----------------------
+//
+// If you need to blame someone, the best way to do so is by quoting them:
+//
+// > I, at any rate, am convinced that He does not throw dice.
+//
+// Or perhaps someone a little less eloquent:
+//
+// > I wish you'd have given me this written question ahead of time so I
+// > could plan for it... I'm sure something will pop into my head here in
+// > the midst of this press conference, with all the pressure of trying to
+// > come up with answer, but it hadn't yet...
+// >
+// > I don't want to sound like
+// > I have made no mistakes. I'm confident I have. I just haven't - you
+// > just put me under the spot here, and maybe I'm not as quick on my feet
+// > as I should be in coming up with one.
+//
+// Table for two
+// -------------
+//
+// <table>
+//   <tr>
+//     <th>ID</th><th>Name</th><th>Profession</th>
+//   </tr>
+//   <tr>
+//     <td>1</td><td>Beethoven</td><td>Composer</td>
+//   </tr>
+//   <tr>
+//     <td>2</td><td>Beethoven (the dog)</td><td>Dog</td>
+//   </tr>
+// </table>
+//
+// Crazy linking action
+// --------------------
+//
+// I get 10 times more traffic from [Google] [1] than from
+// [Yahoo] [2] or [MSN] [3].
+//
+//   [1]: http://google.com/        "Google"
+//   [2]: http://search.yahoo.com/  "Yahoo Search"
+//   [3]: http://search.msn.com/    "MSN Search"
+//
+//
+// # Header 1
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// ## Header 2
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// ### Header 3
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// #### Header 4
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// ##### Header 5
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// ###### Header 6
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// Ode to Code
+// -----------
+//
+// ### Code block
+//
+// ``` coffeescript
+//  ameta.append('span')
+//           .attr('class', 'cmeta')
+//           .html((d) -> "<a class='cmt' href='../commits?author=#{d.author.login}'>#{$.commafy(d.cmts)} commits</a> / <span class='a'>#{$.commafy(d.adds)} ++</span> / <span class='d'>#{$.commafy(d.dels)} --</span>")
+//
+//         svg = person.append('svg')
+//           .attr('width', sparkw + (padl + padr))
+//           .attr('height', sparkh + padt + padb)
+//           .attr('class', 'spark')
+//           .append('g')
+//             .attr('transform', "translate(#{padl},#{padt})")
+//
+//         svg.append("g")
+//           .attr("class", "x axis")
+//           .attr("transform", "translate(0, #{sparkh - padt - padb})")
+//           .call(xAxis)
+//         .selectAll('.x.axis g text')
+//           .style('display', (d, i) -> if i % 2 != 0 then 'none' else 'block')
+//
+//         yax = svg.append("g")
+//           .attr("class", "y axis")
+//           .call(yAxis)
+//         .selectAll('.y.axis g text')
+//           .attr('dx', sparkw / 2)
+//           .style('display', (d, i) -> if i == 0 then 'none' else 'block')
+//           .classed 'midlabel', true
+// ```
+//
+// ### Single tick with spaces
+//
+// `You can use the HTML5 custom data attributes by passing the values inside a data hash. For example: data =&gt; { :something =&gt; "bla bla bla", :confirm =&gt; "You sure?" }`
+//
+// ### Multiple single ticks
+//
+// `2012-03-28 09:19:58.0908|INFO|FileLogger|Processing xml: <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='MSSQLSERVER'/><EventID Qualifiers='49152'>18456</EventID><Level>0</Level><Task>4</Task><Keywords>0x90000000000000</Keywords><TimeCreated SystemTime='2012-03-28T13:19:58.000000000Z'/><EventRecordID>399270</EventRecordID><Channel>Application</Channel><Computer>dallas</Computer><Security/></System><EventData><Data>sa</Data><Data> Reason: Password did not match that for the login provided.</Data><Data> [CLIENT: 118.186.64.242]</Data><Binary>184800000E00000007000000440041004C004C00410053000000070000006D00610073007400650072000000</Binary></EventData></Event>`
+//
+// `2012-03-28 09:19:58.0908|INFO|FileLogger|No regex, so counting as a match sdf sdf sdf sdfsd lksdfj lksjdf lksjdf lksdjf lksjdf lsdfj werwer werwer`
+//
+// ### Unbroken single tick
+//
+// `longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong`
+//
+// ### Unbroken triple tick
+//
+// ``` ruby
+// longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong
+// ```
+//
+// ### Single tick between a block of text that wraps
+//
+// this is a line with some text and `inline code test test test test test test test test test test test test test test test test test test test test  test test test test` and more text here
+//
+// ### Single tick between a block of text that doesn't wrap
+//
+// this is some text, `and this is some code`, lines don't break, they do what they're told
+//
+// Styleguide 4.0
+
+
+// All of our block level items should have the same margin
+$margin: 16px;
+
+// This is styling for generic markdownized text. Anything you put in a
+// container with .markdown-body on it should render generally well. It also
+// includes some GitHub Flavored Markdown specific styling (like @mentions)
+.markdown-body {
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+
+  > *:first-child {
+    margin-top: 0 !important;
+  }
+
+  > *:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  // Anchors like <a name="examples">. These sometimes end up wrapped around
+  // text when users mistakenly forget to close the tag or use self-closing tag
+  // syntax. We don't want them to appear like links.
+  // FIXME: a:not(:link):not(:visited) would be a little clearer here (and
+  // possibly faster to match), but it breaks styling of <a href> elements due
+  // to https://bugs.webkit.org/show_bug.cgi?id=142737.
+  a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  // Link Colors
+  .absent {
+    color: #c00;
+  }
+
+  .anchor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding-right: 6px;
+    padding-left: 30px;
+    margin-left: -30px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  // Headings
+  h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: $margin;
+    font-weight: bold;
+    line-height: 1.4;
+
+    .octicon-link {
+      display: none;
+      color: #000;
+      vertical-align: middle;
+    }
+
+    &:hover .anchor {
+      padding-left: 8px;
+      margin-left: -30px;
+      text-decoration: none;
+
+      .octicon-link {
+        display: inline-block;
+      }
+    }
+
+    tt,
+    code {
+      font-size: inherit;
+    }
+  }
+
+  h1 {
+    padding-bottom: 0.3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+
+    .anchor {
+      line-height: 1;
+    }
+  }
+
+  h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+
+    .anchor {
+      line-height: 1;
+    }
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+
+    .anchor {
+      line-height: 1.2;
+    }
+  }
+
+  h4 {
+    font-size: 1.25em;
+
+    .anchor {
+      line-height: 1.2;
+    }
+  }
+
+  h5 {
+    font-size: 1em;
+
+    .anchor {
+      line-height: 1.1;
+    }
+  }
+
+  h6 {
+    font-size: 1em;
+    color: #777;
+
+    .anchor {
+      line-height: 1.1;
+    }
+  }
+
+  p,
+  blockquote,
+  ul, ol, dl,
+  table,
+  pre {
+    margin-top: 0;
+    margin-bottom: $margin;
+  }
+
+  hr {
+    height: 4px;
+    padding: 0;
+    margin: $margin 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+  }
+
+  // Lists, Blockquotes & Such
+  ul,
+  ol {
+    padding-left: 2em;
+
+    &.no-list {
+      padding: 0;
+      list-style-type: none;
+    }
+  }
+
+  // Did someone complain about list spacing? Encourage them
+  // to create the spacing with their markdown formatting.
+  // List behavior should be controled by the markup, not the css.
+  //
+  // For lists with padding between items, use blank
+  // lines between items. This will generate paragraphs with
+  // padding to space things out.
+  //
+  // - item
+  //
+  // - item
+  //
+  // - item
+  //
+  // For list without padding, don't use blank lines.
+  //
+  // - item
+  // - item
+  // - item
+  //
+  // Modifying the css to emulate these behaviors merely brakes
+  // one case in the process of solving another. Don't change
+  // this unless it's really really a bug.
+  ul ul,
+  ul ol,
+  ol ol,
+  ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li > p {
+    margin-top: $margin;
+  }
+
+  dl {
+    padding: 0;
+  }
+
+  dl dt {
+    padding: 0;
+    margin-top: $margin;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  dl dd {
+    padding: 0 $margin;
+    margin-bottom: $margin;
+  }
+
+  blockquote {
+    padding: 0 15px;
+    color: #777;
+    border-left: 4px solid #ddd;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Tables
+  table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
+
+    th {
+      font-weight: bold;
+    }
+
+    th, td {
+      padding: 6px 13px;
+      border: 1px solid #ddd;
+    }
+
+    tr {
+      background-color: #fff;
+      border-top: 1px solid #ccc;
+
+      &:nth-child(2n) {
+        background-color: #f8f8f8;
+      }
+    }
+  }
+
+  // Images & Stuff
+  img {
+    max-width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .emoji {
+    max-width: none;
+  }
+
+  // Gollum Image Tags
+
+  // Framed
+  span.frame {
+    display: block;
+    overflow: hidden;
+
+    & > span {
+      display: block;
+      float: left;
+      width: auto;
+      padding: 7px;
+      margin: 13px 0 0;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+
+    span img {
+      display: block;
+      float: left;
+    }
+
+    span span {
+      display: block;
+      padding: 5px 0 0;
+      clear: both;
+      color: #333;
+    }
+  }
+
+  span.align-center {
+    display: block;
+    overflow: hidden;
+    clear: both;
+
+    & > span {
+      display: block;
+      margin: 13px auto 0;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    span img {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  span.align-right {
+    display: block;
+    overflow: hidden;
+    clear: both;
+
+    & > span {
+      display: block;
+      margin: 13px 0 0;
+      overflow: hidden;
+      text-align: right;
+    }
+
+    span img {
+      margin: 0;
+      text-align: right;
+    }
+  }
+
+  span.float-left {
+    display: block;
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+
+    span {
+      margin: 13px 0 0;
+    }
+  }
+
+  span.float-right {
+    display: block;
+    float: right;
+    margin-left: 13px;
+    overflow: hidden;
+
+    & > span {
+      display: block;
+      margin: 13px auto 0;
+      overflow: hidden;
+      text-align: right;
+    }
+  }
+
+  // Inline code snippets
+  code,
+  tt {
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 3px; // don't add padding, gives scrollbars
+
+    &:before,
+    &:after {
+      letter-spacing: -0.2em; // this creates padding
+      content: "\00a0";
+    }
+
+    br { display: none; }
+  }
+
+  del code { text-decoration: inherit; }
+
+  // Code tags within code blocks (<pre>s)
+  pre > code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  .highlight {
+    margin-bottom: $margin;
+  }
+
+  .highlight pre,
+  pre {
+    padding: $margin;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+  }
+
+  .highlight pre {
+    margin-bottom: 0;
+    word-break: normal;
+  }
+
+  pre {
+    word-wrap: normal;
+  }
+
+  pre code,
+  pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+
+    &:before,
+    &:after {
+      content: normal;
+    }
+  }
+
+  kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 11px;
+    line-height: 10px;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fcfcfc;
+    border: solid 1px #ccc;
+    border-bottom-color: #bbb;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #bbb;
+  }
+}
+
+;	T;i;o;	;o;;i;i;o;;i;i;@;@;BT;@
