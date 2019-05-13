@@ -1,5 +1,7 @@
 # Primer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dyygtfx/primer.svg)](https://greenkeeper.io/)
+
 Primer is the CSS toolkit that powers GitHub's front-end design. It's purposefully limited to common components to provide our developers with the most flexibility, and to keep GitHub uniquely *GitHubby*. It's built with SCSS and available via Bower, so it's easy to include all or part of it within your own project.
 
 [**Read the Primer documentation**](http://primercss.io) to learn more.
